@@ -24,8 +24,8 @@ Note: The machine that is used here is running archlinux and is using yay as a t
 ## For GDM
 
 - Add the following line to `/etc/pam.d/gdm-password` after the existing `auth` lines
-    `auth            required      pam_u2f.so nouserok origin=pam://hostname appid=pam://hostname`
-    `hostname` should be changed accordingly
+    `auth            required      pam_u2f.so nouserok origin=pam://hostname appid=pam://hostname cue`
+    `hostname` should be changed accordingly. The cue at the end of the line gives a prompt to touch the device to unlock.
     This would still require the password. Changing `required` into `sufficient` from the line and moving it as the first line in the `auth` parts would make the hardware key as sufficient unlocking tool with the password as fallback. The problem with this is that upon loggin in, Gnome Keyring would then ask for the password phrase. To remove it, change the Gnome Keyring password into blank. It can be done using `seahorse` (installable using the package manager). This theoretically makes your password and data less secure. My root and home partitions are encrypted though and for my use case I prefer a little bit of convenience over security. In the future, I will be dabbling in using the key to also unlock Gnome Keyring.
     Relevant Links: https://221b.uk/gnome-login-using-u2f-security-tokens
                     https://askubuntu.com/questions/1167691/passwordless-login-with-yubikey-5-nfc
