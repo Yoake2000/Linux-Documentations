@@ -6,7 +6,9 @@ Note: The LUKS Encrypted Partitions used in my workstation is created by the Arc
 
 	- Relevant discussion: https://www.reddit.com/r/archlinux/comments/1307cke/encrypt_vs_sdencrypt_mkinitcpio_hooks/)
 - Create file /etc/crypttab.initramfs
-	root  UUID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX  none  tpm2-device=auto
+	```
+	root	UUID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX  none  tpm2-device=auto
+	``````
 - Regenerate initramfs. 
 	```
 	# sudo mkinitcpi -P
