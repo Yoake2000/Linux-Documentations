@@ -7,3 +7,4 @@
 - [[Force all android apps to be rotatable.]]
 - [[Enabling Authentication in GDM,sudo and Passkey in browsers using Yubikey Security Key]]
 - [[Advanced BIOS Settings for HP Victus 16]]
+- {{renderer :tocgen2, [[enabling authentication using yubikey]], calc(100vh - 135px)}}
