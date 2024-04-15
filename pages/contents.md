@@ -1,12 +1,2 @@
-- [[Enabling Yubikey Security]]
-- [[Enabling Authentication using Yubikey]]
-- [[YubiKey For KDE Plasma 6 and Linux]]
-- [[Setting up linux rpi 4 with a broken. (Notes on feb 22,2024 transferred from obsidian)]]
-- [[HP Victus 16 Fan Control]]
-- [[HP Victus 16 Resizable Bar and VRAM configurations for Linux]]
-- [[Force all android apps to be rotatable.]]
-- [[Enabling Authentication in GDM,sudo and Passkey in browsers using Yubikey Security Key]]
-- [[Advanced BIOS Settings for HP Victus 16]]
 - {{renderer :tocgen2, [[enabling authentication using yubikey]], calc(100vh - 135px)}}
-- {{renderer :tocgen2, [[advanced bios settings for hp victus 16]], calc(100vh - 135px)}}
-- {{renderer :tocgen2, [[enabling authentication using yubikey]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[hp victus 16 resizable bar and vram configurations for linux]], calc(100vh - 135px)}}
