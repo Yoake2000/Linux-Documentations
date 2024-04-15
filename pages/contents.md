@@ -1,2 +1,4 @@
 - {{renderer :tocgen2, [[enabling authentication using yubikey]], calc(100vh - 135px)}}
 - {{renderer :tocgen2, [[hp victus 16 resizable bar and vram configurations for linux]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[yubikey for kde plasma 6 and linux]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[setting up linux rpi 4 with a broken. (notes on feb 22,2024 transferred from obsidian)]], calc(100vh - 135px)}}
