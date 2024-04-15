@@ -5,3 +5,4 @@
 - {{renderer :tocgen2, [[enabling yubikey security key unlock for luks encrypted root partition]], calc(100vh - 135px)}}
 - {{renderer :tocgen2, [[advanced bios settings for hp victus 16]], calc(100vh - 135px)}}
 - {{renderer :tocgen2, [[enabling authentication in gdm,sudo and passkey in browsers using yubikey security key]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[hp victus 16 fan control]], calc(100vh - 135px)}}
