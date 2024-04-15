@@ -1,2 +1,9 @@
 - [[Enabling Yubikey Security]]
+- [[Enabling Authentication using Yubikey]]
+- [[YubiKey For KDE Plasma 6 and Linux]]
+- [[Setting up linux rpi 4 with a broken. (Notes on feb 22,2024 transferred from obsidian)]]
+- [[HP Victus 16 Fan Control]]
+- [[HP Victus 16 Resizable Bar and VRAM configurations for Linux]]
+- [[Force all android apps to be rotatable.]]
+- [[Enabling Authentication in GDM,sudo and Passkey in browsers using Yubikey Security Key]]
 -
