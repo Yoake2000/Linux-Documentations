@@ -6,3 +6,4 @@
 - {{renderer :tocgen2, [[enabling authentication in gdm,sudo and passkey in browsers using yubikey security key]], calc(100vh - 135px)}}
 - {{renderer :tocgen2, [[hp victus 16 fan control]], calc(100vh - 135px)}}
 - {{renderer :tocgen2, [[setting up linux rpi 4 with a broken screen. (notes on feb 22,2024 transferred from obsidian)]], calc(100vh - 135px)}}
+-
