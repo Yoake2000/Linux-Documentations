@@ -6,4 +6,4 @@
 - [[HP Victus 16 Resizable Bar and VRAM configurations for Linux]]
 - [[Force all android apps to be rotatable.]]
 - [[Enabling Authentication in GDM,sudo and Passkey in browsers using Yubikey Security Key]]
--
+- [[Advanced BIOS Settings for HP Victus 16]]
