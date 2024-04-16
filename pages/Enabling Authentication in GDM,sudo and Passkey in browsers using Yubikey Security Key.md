@@ -51,6 +51,8 @@
 	                    https://askubuntu.com/questions/1167691/passwordless-login-with-yubikey-5-nfc
 - ## For Browsers
 	- Open the Yubico Authenticator Program with the key inserted on the device. Add a PIN to be assigned to the key. The key is now usable for websites that supports it.
+- # Notes
+	-
 - ## Relevant Links:
   
   https://wiki.archlinux.org/title/Universal_2nd_Factor
