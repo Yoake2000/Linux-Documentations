@@ -12,4 +12,5 @@
 	- I didn't used the instructions from this repo since I want to use the Yubikey as a sufficient key to login for my computer. For `sudo` and changing `required` to `sufficient`, this works adequately but for the SDDM login screen, even after changing to `sufficient`, a password is still required. For the lockscreen, the instructions and changing to `sufficient` is adequate though.
 - #
 - # Adding YubiKey as a Global (System Wide) Authentication key
-	- Adding the line (similar line used from the previous steps) `auth    sufficient  pam_u2f.so cue origin=pam://hostname appid=pam://hostname` would make the Yubikey a sufficient key for SDDM login. This would also include the KDE lockscreen, ``sudo``, and KDE PolicyKit Agent popup screens. Not yet tested if this works for `tty` screens.
+	- Adding the line (similar line used from the previous steps) `auth    sufficient  pam_u2f.so cue origin=pam://hostname appid=pam://hostname` as a first line in ``/etc/pam.d/system-auth`` would make the Yubikey a sufficient key for SDDM login. This would also include the KDE lockscreen, ``sudo``, and KDE PolicyKit Agent popup screens. Not yet tested if this works for `tty` screens.
+	- This [website article](https://lucaweiss.eu/post/2016-07-23-sddm-login-with-yubikey/) is the reference for the
