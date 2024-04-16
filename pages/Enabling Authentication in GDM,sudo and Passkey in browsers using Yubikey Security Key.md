@@ -17,7 +17,7 @@
 	    auth    sufficient  pam_u2f.so cue origin=pam://hostname appid=pam://hostname
 	  ```
 	  
-	    `hostname`` should be changed. Also `sufficient` there indicates that the following authentication is sufficient to be used. If 2FA is desired, where the key and a passw
+	    `hostname` should be changed. Also `sufficient` there indicates that the following authentication is sufficient to be used. If 2FA is desired, where the key and a password is required, changing it to `required` is necessary. 
 	  
 	    This would make the security key as one of the ways to run sudo. There is still the password fallback. To remove the fallback, comment out the following line from the file
 	  
