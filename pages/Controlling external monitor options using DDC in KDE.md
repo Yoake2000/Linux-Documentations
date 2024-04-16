@@ -1,4 +1,4 @@
 - WIP
 - https://github.com/davidhi7/ddcci-plasmoid
 - # Prerequisites
-	-
+	- Laptop
