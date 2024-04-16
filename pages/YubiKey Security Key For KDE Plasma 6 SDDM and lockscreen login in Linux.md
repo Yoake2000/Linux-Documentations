@@ -4,7 +4,9 @@
 		- There are steps for using Yubikey 2FA for `sudo`,`su`,SDDM login screen, KDE Lockscreen and PolicyKit KDE Agent within the repo.
 		- For `sudo`, the steps are similar from [Enabling Authentication in GDM,sudo and Passkey in browsers using Yubikey Security Key](((661dd702-e1c2-4803-9b49-7ff141bd8e72))) . Yubikey can also be a sufficient key if `sufficient` parameter is used instead of `required`.
 		- A line in the repo instructions about changing ``auth include system-auth`` to `auth substack system-auth`. I didn't changed the line and haven't tested what are its effects. I don't know how `substack` or `include` affects the authentication.
+		  collapsed:: true
 			- The following links may contain the answers and I still yet to read them:
+			  collapsed:: true
 				- https://utcc.utoronto.ca/~cks/space/blog/linux/PAMStackingAndStopping
 				- https://www.redhat.com/sysadmin/pam-configuration-file
 				- https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/pam_configuration_files
@@ -13,4 +15,5 @@
 - #
 - # Adding YubiKey as a Global (System Wide) Authentication key
 	- Adding the line (similar line used from the previous steps) `auth    sufficient  pam_u2f.so cue origin=pam://hostname appid=pam://hostname` as a first line in ``/etc/pam.d/system-auth`` would make the Yubikey a sufficient key for SDDM login. This would also include the KDE lockscreen, ``sudo``, and KDE PolicyKit Agent popup screens. Not yet tested if this works for `tty` screens.
-	- This [website article](https://lucaweiss.eu/post/2016-07-23-sddm-login-with-yubikey/) is the reference for the
+	- This [website article](https://lucaweiss.eu/post/2016-07-23-sddm-login-with-yubikey/) is the reference for this step but it uses ``yubico-pam`` instead of ``pam-u2f``.
+-
