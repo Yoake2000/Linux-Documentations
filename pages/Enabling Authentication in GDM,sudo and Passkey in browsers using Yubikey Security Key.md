@@ -39,7 +39,7 @@
 	  
 	    `hostname` should be changed accordingly. The cue at the end of the line gives a prompt to touch the device to unlock.
 	  
-	    This would still require the password. Changing `required` into `sufficient` from the line and moving it as the first line in the `auth` parts would make the hardware key as sufficient unlocking tool with the password as fallback. The problem with this is that upon loggin in, Gnome Keyring would then ask for the password phrase. To remove it, change the Gnome Keyring password into blank. It can be done using `seahorse` (installable using the package manager). This theoretically makes your password and data less secure. My root and home partitions are encrypted though and for my use case I prefer a little bit of convenience over security. In the future, I will be dabbling in using the key to also unlock Gnome Keyring.
+	    This would still require the password. Changing `required` into `sufficient` from the line and moving it as the first line in the `auth` parts would make the hardware key as sufficient unlocking tool with the password as fallback. The problem with this is that upon loggin in, Gnome Keyring would then ask for the password phrase. To remove it, change the Gnome Keyring password into blank. It can be done using `seahorse` (installable using the package manager). This theoretically makes your password and data less secure. My root and home partitions are encrypted though and for my use case I prefer a little bit of convenience over security. ~~In the future, I will be dabbling in using the key to also unlock Gnome Keyring.~~ This is difficult and there have been discussions to implement this within Gnome Keyring itself. There's also an old 
 	  
 	    
 	  
