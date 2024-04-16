@@ -10,4 +10,4 @@
 	- Specific steps followed for my own system:
 		- `pip` on Archlinux does not allow global packages installation and thus `pipx` was used.
 			- `$ pipx install ddcci-plasmoid-backend`
-		-
+			- This also necessitates changing the `Backend executable command` option from within the widget setting (after displaying the widget on the KDE desktop) from
