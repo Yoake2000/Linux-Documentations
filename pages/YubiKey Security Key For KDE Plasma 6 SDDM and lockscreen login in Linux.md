@@ -1,8 +1,4 @@
-- WIP
-- https://lucaweiss.eu/post/2016-07-23-sddm-login-with-yubikey/
-- https://github.com/Zer0CoolX/Fedora-KDE-Yubikey-U2F-2FA-Logins-Guide
--
-- Yubikey Security Key must first be added as a key for authentication as outline in [Enabling Authentication in GDM,sudo and Passkey in browsers using Yubikey Security Key]. Optionally add it as a key for sudo. This page would outline the steps to be done for using the Yubikey Security Key (Yubikey Security Key C NFC) for SDDM login and lockscreen.
+- Yubikey Security Key must first be added as a key for authentication as outline in [Enabling Authentication in GDM,sudo and Passkey in browsers using Yubikey Security Key](((661dd702-b5fa-4e99-8259-534692b87edf))) . Optionally add it as a key for sudo. This page would outline the steps to be done for using the Yubikey Security Key (Yubikey Security Key C NFC) for SDDM login and lockscreen.
 - # Use as a second factor authentication (2FA)
 	- A useful [github repo](https://github.com/Zer0CoolX/Fedora-KDE-Yubikey-U2F-2FA-Logins-Guide) outlined the steps for using a Yubikey Security Key as 2FA for Fedora KDE Linux. These steps also works for Arch Linux but replacing some steps for the distro specific programs.
 		- There are steps for using Yubikey 2FA for `sudo`,`su`,SDDM login screen, KDE Lockscreen and PolicyKit KDE Agent within the repo.
@@ -16,4 +12,4 @@
 	- I didn't used the instructions from this repo since I want to use the Yubikey as a sufficient key to login for my computer. For `sudo` and changing `required` to `sufficient`, this works adequately but for the SDDM login screen, even after changing to `sufficient`, a password is still required. For the lockscreen, the instructions and changing to `sufficient` is adequate though.
 - #
 - # Adding YubiKey as a Global (System Wide) Authentication key
-	-
+	- Adding the
