@@ -12,5 +12,5 @@
 				- https://utcc.utoronto.ca/~cks/space/blog/linux/PAMStackingAndStopping
 				- https://www.redhat.com/sysadmin/pam-configuration-file
 				- https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/pam_configuration_files
-	- I
+	- I didn't used the instructions from this repo since I want to use the Yubikey as a sufficient key to login for my computer. For `sudo`, this works adequate
 -
