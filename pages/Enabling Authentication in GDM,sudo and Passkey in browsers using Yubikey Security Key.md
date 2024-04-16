@@ -12,6 +12,7 @@
   `hostname` should be changed.
 - ## For sudo
 	- Add the following line to `/etc/pam.d/sudo` as the first line.
+	  id:: 661dd702-6034-4cc7-bea7-265c1ab9385e
 	  
 	    ```
 	    auth    sufficient  pam_u2f.so cue origin=pam://hostname appid=pam://hostname
