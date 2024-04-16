@@ -11,6 +11,7 @@
   
   `hostname` should be changed.
 - ## For sudo
+  id:: 661dd702-e1c2-4803-9b49-7ff141bd8e72
 	- Add the following line to `/etc/pam.d/sudo` as the first line.
 	  id:: 661dd702-6034-4cc7-bea7-265c1ab9385e
 	  

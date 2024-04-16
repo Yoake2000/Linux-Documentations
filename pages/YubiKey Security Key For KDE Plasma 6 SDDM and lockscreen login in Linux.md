@@ -6,7 +6,7 @@
 - # Use as a second factor authentication (2FA)
 	- A useful [github repo](https://github.com/Zer0CoolX/Fedora-KDE-Yubikey-U2F-2FA-Logins-Guide) outlined the steps for using a Yubikey Security Key as 2FA for Fedora KDE Linux. These steps also works for Arch Linux but replacing some steps for the distro specific programs.
 		- There are steps for using Yubikey 2FA for `sudo`,`su`,SDDM login screen, KDE Lockscreen and PolicyKit KDE Agent within the repo.
-		- For `sudo`, the steps are similar from [[Enabling Authentication in GDM,sudo and Passkey in browsers using Yubikey Security Key]]. Yubikey can also be a sufficient key if `sufficient` parameter is used instead of `required`.
+		- For `sudo`, the steps are similar from [Enabling Authentication in GDM,sudo and Passkey in browsers using Yubikey Security Key] ((661dd702-e1c2-4803-9b49-7ff141bd8e72)) . Yubikey can also be a sufficient key if `sufficient` parameter is used instead of `required`.
 		- A line in the repo instructions about changing ``auth include system-auth`` to `auth substack system-auth`. I didn't changed the line and haven't tested what are its effects. I don't know how `substack` or `include` affects the authentication.
 			- The following links may contain the answers and I still yet to read them:
 				- https://utcc.utoronto.ca/~cks/space/blog/linux/PAMStackingAndStopping
