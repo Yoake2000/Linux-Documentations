@@ -52,7 +52,8 @@
 - ## For Browsers
 	- Open the Yubico Authenticator Program with the key inserted on the device. Add a PIN to be assigned to the key. The key is now usable for websites that supports it.
 - # Notes
-	- `nouserok` flag of `pam_u2f` :
+	- `nouserok` flag of `pam_u2f` : Set to enable authentication attempts to succeed even if the user trying to authenticate is not found inside authfile or if authfile is
+	  missing/malformed. From: https://developers.yubico.com/pam-u2f/Manuals/pam_u2f.8.html
 - ## Relevant Links:
   
   https://wiki.archlinux.org/title/Universal_2nd_Factor
