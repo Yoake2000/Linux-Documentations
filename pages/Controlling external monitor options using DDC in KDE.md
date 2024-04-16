@@ -1,4 +1,5 @@
 - WIP
 - https://github.com/davidhi7/ddcci-plasmoid
 - # Prerequisites
-	- External Monitor Brightness are not controllable from the sys
+	- External Monitor Brightness are not controllable from within the desktop GUI without 3rd-party programs.
+	-
