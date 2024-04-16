@@ -2,4 +2,5 @@
 - https://github.com/davidhi7/ddcci-plasmoid
 - # Prerequisites
 	- External Monitor Brightness are not controllable from within the desktop GUI without 3rd-party programs.
-	- Information for controlling the display brightness (and other options) from within Linux is documented by
+	- Information for controlling the display brightness (and other options) from within Linux is documented by [this article](https://wiki.archlinux.org/title/backlight) from the Archlinux Wiki.
+		- ddcutil is the cli program used to
