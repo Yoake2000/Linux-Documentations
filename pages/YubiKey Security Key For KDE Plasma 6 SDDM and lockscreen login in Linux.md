@@ -15,4 +15,4 @@
 				- https://www.linux.org/docs/man5/system-auth.html
 	- I didn't used the instructions from this repo since I want to use the Yubikey as a sufficient key to login for my computer. For `sudo` and changing `required` to `sufficient`, this works adequately but for the SDDM login screen, even after changing to `sufficient`, a password is still required. For the lockscreen, the instructions and changing to `sufficient` is adequate though.
 - #
--
+- # Adding YubiKey as a Global (System Wide) Authentication
