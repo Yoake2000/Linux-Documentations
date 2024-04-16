@@ -10,3 +10,6 @@
 		- `pip` on Archlinux does not allow global packages installation and thus `pipx` was used.
 			- `$ pipx install ddcci-plasmoid-backend`
 			- This also necessitates changing the `Backend executable command` option from within the widget setting (after displaying the widget on the KDE desktop) from the default into ``~/.local/bin/ddcci_plasmoid_backend``
+- # VDU Control (To be implemented later)
+	- WIP
+	- https://github.com/digitaltrails/vdu_controls
