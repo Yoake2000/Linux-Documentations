@@ -12,4 +12,4 @@
 	- I didn't used the instructions from this repo since I want to use the Yubikey as a sufficient key to login for my computer. For `sudo` and changing `required` to `sufficient`, this works adequately but for the SDDM login screen, even after changing to `sufficient`, a password is still required. For the lockscreen, the instructions and changing to `sufficient` is adequate though.
 - #
 - # Adding YubiKey as a Global (System Wide) Authentication key
-	- Adding the
+	- Adding the line (similar line used from the previous steps) `auth    sufficient  pam_u2f.so cue origin=pam://hostname appid=pam://hostname` would make the Yubikey a sufficient key
