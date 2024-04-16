@@ -8,5 +8,9 @@
 		- There are steps for using Yubikey 2FA for `sudo`,`su`,SDDM login screen, KDE Lockscreen and PolicyKit KDE Agent within the repo.
 		- For `sudo`, the steps are similar from [[Enabling Authentication in GDM,sudo and Passkey in browsers using Yubikey Security Key]]. Yubikey can also be a sufficient key if `sufficient` parameter is used instead of `required`.
 		- A line in the repo instructions about changing ``auth include system-auth`` to `auth substack system-auth`. I didn't changed the line and haven't tested what are its effects. I don't know how `substack` or `include` affects the authentication.
-			-
+			- The following links may contain the answers and I still yet to read them:
+				- https://utcc.utoronto.ca/~cks/space/blog/linux/PAMStackingAndStopping
+				- https://www.redhat.com/sysadmin/pam-configuration-file
+				- https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/pam_configuration_files
+	- I
 -
