@@ -1,0 +1,5 @@
+- WIP
+- https://dharmx.is-a.dev/eww-powermenu/
+- https://elkowar.github.io/eww/#building
+- https://elkowar.github.io/eww/configuration.html#wayland
+-
