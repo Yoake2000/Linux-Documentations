@@ -1,3 +1,3 @@
 - In order to help improve battery life on Linux, `ryzenadj` can be useful to limit the power drawn by the CPU.
 - Laptops automatically adjusts settings if it is plugged in or running in battery. As stated on the [RyzenAdj Github Wiki](https://github.com/FlyGoat/RyzenAdj/wiki/Renoir-Tuning-Guide), `power-saving ` or `max-performance` is automatically set depending on the power source and values vary depending on the device.
-- Setting much more lower power limits may help on improving the battery life. Thus I want to set the power limit max at 5W. This
+- Setting much more lower power limits may help on improving the battery life. Thus I want to set the power limit max at 5W.
