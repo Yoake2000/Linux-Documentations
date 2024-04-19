@@ -1,1 +1,2 @@
-- In order to help improve battery life on Linux, `ryzenadj` can be useful to limit power
+- In order to help improve battery life on Linux, `ryzenadj` can be useful to limit the power drawn by the CPU.
+- Laptops automatically adjusts settings if it is plugged in or running in battery.
