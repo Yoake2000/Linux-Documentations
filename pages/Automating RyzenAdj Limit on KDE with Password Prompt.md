@@ -1,0 +1,1 @@
+- In order to help improve battery life on Linux, `ryzenadj` can be useful to limit power
