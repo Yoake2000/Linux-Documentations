@@ -7,3 +7,4 @@
 - {{renderer :tocgen2, [[controlling external monitor options using ddc in kde]], calc(100vh - 135px)}}
 - {{renderer :tocgen2, [[Setting up Linux Raspberry Pi 4 with a broken monitor screen. (Notes on feb 22,2024 transferred from obsidian)]] , calc(100vh - 135px)}}
 - {{renderer :tocgen2, [[yubikey security key for kde plasma 6 sddm and lockscreen login in linux]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[automating ryzenadj limit on kde with password prompt]], calc(100vh - 135px)}}
