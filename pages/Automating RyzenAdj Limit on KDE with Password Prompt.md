@@ -9,6 +9,9 @@
 	- KDE is able to run commands or scripts when changing power profiles on System Settings > Energy Saving.
 	- Running commands or scripts that require `sudo` using the previous step won't prompt to enter the password. If you have a yubikey set up like from [[YubiKey Security Key For KDE Plasma 6 SDDM and lockscreen login in Linux]], the Yubikey will light up and you would be able to authenticate for `sudo`.
 	- In order to prompt for the password, the following bash script was used:
-		- #!/bin/bash
+		- ```#!/bin/bash
 		  echo $(kdialog --password "sudo password required") | sudo ryzenadj --tctl-temp=75  --stapm-limit=5000 --fast-limit=5000 --slow-limit=5000
-		- This [Ask Ubuntu forum post](https://askubuntu.com/questions/1067064/how-do-i-run-a-graphical-sudo-in-bash-on-kubuntu-18-04-now-that-kdesudo-is-gone) discusses how to run Graphical Sudo Prompts in KDE. This is the
+		  ```
+		- This [Ask Ubuntu forum post](https://askubuntu.com/questions/1067064/how-do-i-run-a-graphical-sudo-in-bash-on-kubuntu-18-04-now-that-kdesudo-is-gone) discusses how to run Graphical Sudo Prompts in KDE. This is where the bash script part to prompt `sudo` password was referenced. Note this may be outdated and not very secure.
+-
+-
