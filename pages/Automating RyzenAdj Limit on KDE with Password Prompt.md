@@ -7,4 +7,5 @@
 		- needing `sudo` to run
 - # Automatically setting power limit using RyzenAdj on KDE
 	- KDE is able to run commands or scripts when changing power profiles on System Settings > Energy Saving.
-	- Running commands or scripts that require `sudo` using the previous step won't prompt to enter the password. If you have a yubikey set up like from
+	- Running commands or scripts that require `sudo` using the previous step won't prompt to enter the password. If you have a yubikey set up like from [[YubiKey Security Key For KDE Plasma 6 SDDM and lockscreen login in Linux]], the Yubikey will light up and you would be able to authenticate for `sudo`.
+	- In order to prompt for the password, a bash script
