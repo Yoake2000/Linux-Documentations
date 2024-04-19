@@ -5,7 +5,10 @@
 	- Setting power limits can be done on CLI using:
 		- `# ryzenadj  --stapm-limit=5000 --fast-limit=5000 --slow-limit=5000 `
 		- needing `sudo` to run
-	- To
+	- #To_Improve
+		- Possible references:
+			- https://www.reddit.com/r/archlinux/comments/pwpk8o/in_my_laptop_linux_has_very_bad_battery_duration/
+			-
 - # Automatically setting power limit using RyzenAdj on KDE
 	- KDE is able to run commands or scripts when changing power profiles on System Settings > Energy Saving.
 	- Running commands or scripts that require `sudo` using the previous step won't prompt to enter the password. If you have a yubikey set up like from [[YubiKey Security Key For KDE Plasma 6 SDDM and lockscreen login in Linux]], the Yubikey will light up and you would be able to authenticate for `sudo`.
