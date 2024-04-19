@@ -7,4 +7,4 @@
 		- needing `sudo` to run
 - # Automatically setting power limit using RyzenAdj on KDE
 	- KDE is able to run commands or scripts when changing power profiles on System Settings > Energy Saving.
-	- Only problem is that
+	- Running commands or scripts that require `sudo` using the previous step won't prompt to enter the password. If you have a yubikey set up like from
