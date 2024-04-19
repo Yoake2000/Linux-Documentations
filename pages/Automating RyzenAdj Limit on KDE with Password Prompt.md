@@ -4,4 +4,5 @@
 - Setting power limits can be done on CLI using:
 	- `# ryzenadj  --stapm-limit=5000 --fast-limit=5000 --slow-limit=5000 `
 	- needing `sudo` to run
-- KDE is able to
+- KDE is able to run commands or scripts when changing power profiles on System Settings > Energy Saving.
+- Only Problem
