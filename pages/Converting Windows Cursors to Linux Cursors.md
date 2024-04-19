@@ -4,4 +4,5 @@
 - https://github.com/quantum5/win2xcur
 - https://www.reddit.com/r/linuxquestions/comments/mkvdel/porting_my_cursor_from_windows_to_ubuntu_2004/
 - https://tech.toryanderson.com/2020/03/08/building-custom-x11-cursors-for-linux/
+- https://github.com/makipom/BlueArchive-Cursors
 -
