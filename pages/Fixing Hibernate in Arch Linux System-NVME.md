@@ -1,0 +1,6 @@
+- WIP
+- https://bbs.archlinux.org/viewtopic.php?id=278820
+- https://wiki.archlinux.org/title/Solid_state_drive/NVMe#Controller_failure_due_to_broken_suspend_support
+- https://wiki.archlinux.org/title/Laptop/HP
+- https://docs.kernel.org/arch/x86/x86_64/boot-options.html
+-
