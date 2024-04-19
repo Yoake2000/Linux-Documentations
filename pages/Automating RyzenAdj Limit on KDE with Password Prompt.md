@@ -18,3 +18,4 @@
 		  echo $(kdialog --password "sudo password required") | sudo ryzenadj --tctl-temp=75  --stapm-limit=10000 --fast-limit=10000 --slow-limit=10000
 		  ```
 		- This [Ask Ubuntu forum post](https://askubuntu.com/questions/1067064/how-do-i-run-a-graphical-sudo-in-bash-on-kubuntu-18-04-now-that-kdesudo-is-gone) discusses how to run Graphical Sudo Prompts in KDE. This is where the bash script part to prompt `sudo` password was referenced. Note this may be outdated and not very secure.
+-
