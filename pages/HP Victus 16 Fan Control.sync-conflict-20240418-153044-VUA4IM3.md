@@ -7,3 +7,4 @@
 	- hp-wmi kernel module allows to view fan speeds (the unmodified one)
 	- https://github.com/pelrun/hp-omen-linux-module is a modified kernel module to make use of omen hotkeys and fourzone keyboard control for Omen laptops (not for my victus 16)
 -
+-
