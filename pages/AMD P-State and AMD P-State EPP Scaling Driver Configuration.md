@@ -5,7 +5,7 @@
 	- To enable ``amd_pstate_epp`` (AMD P-state `active` mode) scaling driver for AMD Ryzen Processors, the processor needs to be from `zen 2` and newer generations.
 	- To check if your device is able to use the scaling driver, `cpcc` support must be checked first using `lscpu | grep cppc`. The output must show `cpcc`. If it didn't, there may be a BIOS/UEFI setting needed to be changed first.
 	- For more info about `amd-pstate` and `cpcc`, there is the [kernel documentation.](https://docs.kernel.org/admin-guide/pm/amd-pstate.html)
-	- This guide
+	- This guide discusses how to enable `amd_pstate_epp` driver or the AMD P-state `active` mode and configure it's
 - # Enabling the P-State EPP Scaling Driver
 	- To enable the `amd_pstate_epp` driver, the kernel module parameter `amd_pstate=active` must first be added. This may be unnecessary for newer Linux kernels.
 		- For Arch Linux systems using the `refind` boot manager, the kernel parameter can be added on `/boot/refind_linux.conf` or `/boot/EFI/refind/refind.conf` depending on how the boot manager was set up.
