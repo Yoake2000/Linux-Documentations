@@ -31,4 +31,4 @@
 	- The program `auto-cpufreq` automatically adjusts CPU governors and frequencies and supports adjusting the EPP hints for `amd_pstate_epp` scaling driver depending on the power source. It is useful for managing and improving battery life of laptops.
 		- It can also be configured to use preferred CPU governors by making a config file `/etc/auto-cpufreq.conf`. An example and instructions on how to configure the config file is in the program's [github repo.](https://github.com/AdnanHodzic/auto-cpufreq)
 	- We only need to adjust the CPU governor and EPP hint for battery and AC power source. From the aforementioned Phoronix tests, `powersave balanced_power` and `powersave power` governor and EPP hint pairs are best suited for power consumption and cpu temperature with little impact on the computer's performance when using AC power and Battery power respectively.
-	- The following lines
+	- The following lines on the `/etc/auto-cpufreq.conf` should be changed in order to set the previous
