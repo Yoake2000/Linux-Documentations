@@ -18,4 +18,4 @@
 		  cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver
 		  ```
 - # Configuring Auto-Cpufreq to adjusts CPU governor and EPP hints automatically
-	-
+	- The `amd_pstate_epp` scaling drivers
