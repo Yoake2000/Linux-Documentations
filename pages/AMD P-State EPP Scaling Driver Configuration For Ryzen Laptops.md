@@ -40,16 +40,17 @@
 		  ```
 - # Notes:
 	- This guide is heavily inspired by a [Lemmy.world post](https://lemmy.world/post/3081149)that discusses on how to configure the AMD P-States EPP driver. This guide though tries to organize the information from the post regarding some terms and configurations with more sources  and is focused on automatically adjusting the CPU governors and the EPP hints on Ryzen Laptops.
-	- Some forum discussions were also consulted in creating this guide.
+	- Some forum discussions and guides were also consulted in creating this guide.
 		- https://forum.endeavouros.com/t/dont-get-amd-p-state-active/41018
 		- https://forum.level1techs.com/t/amd-p-state-driver/197885/89?page=2
 		- https://www.reddit.com/r/linux/comments/1aoaps4/amd_pstate_epp_amd_pstate_power_management_energy/
 		- https://forum.endeavouros.com/t/how-to-use-amd-p-state-in-linux/25247/425
 		- https://bbs.archlinux.org/viewtopic.php?id=292940
 		- https://www.reddit.com/r/framework/comments/18b9cp8/does_framework_have_cppc_enabled_for_linux/
+		- https://gitlab.com/echoa/amd-pstate-guide
 	- The following benchmarks deals with AMD P-state and may be useful:
 		- https://community.frame.work/t/responded-linux-amd-pstate-scaling-driver-benchmarks/45830
 		- https://www.phoronix.com/review/amd-pstate-first
 		- https://www.phoronix.com/news/AMD-P-State-Guided-Auto (Not a benchmark but it talks about a benchmark performed by AMD regarding `guided` mode.
 	- Instead of `auto-cpufreq`, [`auto-epp`](https://github.com/jothi-prasath/auto-epp) can also be used. [`power-profiles-daemon`](https://gitlab.freedesktop.org/upower/power-profiles-daemon) can also be used for KDE and GNOME desktops. Note that they may conflict with each other and other programs such as `tlp`. For a very minimalist but harder approach, `cron` can also be used.
-	-
+	- `The ```
