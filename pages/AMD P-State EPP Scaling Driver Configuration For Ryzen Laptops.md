@@ -53,4 +53,4 @@
 		- https://www.phoronix.com/review/amd-pstate-first
 		- https://www.phoronix.com/news/AMD-P-State-Guided-Auto (Not a benchmark but it talks about a benchmark performed by AMD regarding `guided` mode.
 	- Instead of `auto-cpufreq`, [`auto-epp`](https://github.com/jothi-prasath/auto-epp) can also be used. [`power-profiles-daemon`](https://gitlab.freedesktop.org/upower/power-profiles-daemon) can also be used for KDE and GNOME desktops. Note that they may conflict with each other and other programs such as `tlp`. For a very minimalist but harder approach, `cron` can also be used.
-	- `The ```
+	- `auto-cpufreq` may show the following "Warning: CPU turbo is not available" on its status. An issue has
