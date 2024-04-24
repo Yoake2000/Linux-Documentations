@@ -9,4 +9,5 @@
 	- To enable the `amd_pstate_epp` driver, the kernel module parameter `amd_pstate=active` must first be added. This may be unnecessary for newer Linux kernels.
 		- For Arch Linux systems using the `refind` boot manager, the kernel parameter can be added on `/boot/refind_linux.conf` or `/boot/EFI/refind/refind.conf` depending on how the boot manager was set up.
 		- For other distros and/or boot managers, refer to their respective guides on how to change kernel parameters.
-	- If `guided` or `passive` is the preferred mode, just change the kernel parameter to be added into `amd_pstate=guided` or ``
+	- If `guided` or `passive` is the preferred mode, just change the kernel parameter to be added into `amd_pstate=guided` or `amd_pstate=passive` respectively.
+		- The guided mode is only available for kernel versions 6.4 and higher.
