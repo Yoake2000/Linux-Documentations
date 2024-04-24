@@ -4,7 +4,7 @@
 	- The AMD P-state `active` mode is the default now for Ryzen Linux Systems as of [Linux 6.5](https://www.phoronix.com/news/Linux-6.5-Power-Management).
 	- To enable ``amd_pstate_epp`` (AMD P-state `active` mode) scaling driver for AMD Ryzen Processors, the processor needs to be from `zen 2` and newer generations.
 	- To check if your device is able to use the scaling driver, `cpcc` support must be checked first using `lscpu | grep cppc`. The output must show `cpcc`. If it didn't, there may be a BIOS/UEFI setting needed to be changed first.
-	- For more info about `amd-pstate` and `cpcc`, there is the [kernel documentation.](https://docs.kernel.org/admin-guide/pm/amd-pstate.html)
+	- For more info about `amd-pstate` and `cpcc`, consult the [kernel documentation.](https://docs.kernel.org/admin-guide/pm/amd-pstate.html)
 	- This guide discusses how to enable `amd_pstate_epp` driver or the AMD P-state `active` mode and configure the governor and EPP hints using `auto-cpufreq` under the Arch Linux distro depending on what power source is being used. This is applicable for mobile Ryzen systems (Laptops, etc) in order to manage battery life and device temperatures.
 - # Enabling the P-State EPP Scaling Driver
 	- To enable the `amd_pstate_epp` driver, the kernel module parameter `amd_pstate=active` must first be added. This may be unnecessary for newer Linux kernels.
@@ -20,9 +20,9 @@
 - # Configuring Auto-Cpufreq to adjusts CPU governor and EPP hints automatically
 	- The [`amd_pstate_epp` scaling driver offers only two pseudo-governors](https://wiki.archlinux.org/title/CPU_frequency_scaling#Autonomous_frequency_scaling), `powersave` and `performance`.  They're similar with other scaling driver governors but work differently in that these governors need EPP hint to be passed unto the CPU internal governor.
 		- To check the current scaling driver governor, the following command can be used:
-			- ```
-			  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
-			  ```
+		- ```
+		  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+		  ```
 	- The available EPP hints for the governors can be checked using:
 		- ```
 		  cat /sys/devices/system/cpu/cpu0/cpufreq/energy_performance_available_preferences
