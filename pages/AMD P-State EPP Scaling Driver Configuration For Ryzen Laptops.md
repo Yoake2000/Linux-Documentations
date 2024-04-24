@@ -45,6 +45,6 @@
 		- https://forum.level1techs.com/t/amd-p-state-driver/197885/89?page=2
 		- https://www.reddit.com/r/linux/comments/1aoaps4/amd_pstate_epp_amd_pstate_power_management_energy/
 		- https://forum.endeavouros.com/t/how-to-use-amd-p-state-in-linux/25247/425
-	- The following benchmarks deals with AMD P-state modes and may be useful:
+	- The following benchmarks deals with AMD P-state and may be useful:
 		- https://community.frame.work/t/responded-linux-amd-pstate-scaling-driver-benchmarks/45830
-		-
+		- https://www.phoronix.com/review/amd-pstate-first
