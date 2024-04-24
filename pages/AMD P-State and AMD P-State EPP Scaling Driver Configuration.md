@@ -7,4 +7,5 @@
 	- For more info about `amd-pstate` and `cpcc`, there is the [kernel documentation.](https://docs.kernel.org/admin-guide/pm/amd-pstate.html)
 - # Enabling P-State EPP Scaling Driver
 	- To enable the `amd_pstate_epp` driver, the kernel module parameter `amd_pstate=active` must first be added. This may be unnecessary for newer Linux kernels.
-		- For Linux systems using the `refind` boot manager, the kernel parameter can be added on `/boot/refind_linux.conf` or `/boot/EFI/refind/`
+		- For Arch Linux systems using the `refind` boot manager, the kernel parameter can be added on `/boot/refind_linux.conf` or `/boot/EFI/refind/refind.conf` depending on how the boot manager was set up.
+		- For other distros and/or boot managers, refer to
