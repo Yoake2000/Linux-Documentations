@@ -36,4 +36,7 @@
 		- under the `[battery]` block the lines `governor = powersave` and `energy_performance_preference = power` should be inserted/changed from default.
 	- To apply changes, the ``systemd`` service for `auto-cpufreq` can be restarted using:
 		- ```
+		  sudo systemctl restart auto-cpufreq.service
 		  ```
+- # Notes:
+	- This guide is heavily inspired by a Lemmy
