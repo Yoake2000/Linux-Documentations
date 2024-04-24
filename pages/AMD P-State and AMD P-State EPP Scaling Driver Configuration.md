@@ -29,4 +29,4 @@
 		  ```
 	- Mixing and matching the governors and EPP hints can yield different results (refer to the aforementioned [Phoronix article](https://www.phoronix.com/review/amd-pstate-epp-ryzen-mobile) for benchmarks.) in performance.
 	- The program `auto-cpufreq` automatically adjusts CPU governors and frequencies and supports adjusting the EPP hints for `amd_pstate_epp` scaling driver depending on the power source. It is useful for managing and improving battery life of laptops.
-		- It can also be configured to use preferred CPU governors by making
+		- It can also be configured to use preferred CPU governors by making a config file `/etc/auto-cpufreq.conf`. An example and instructions on how to configure the config file is in the program's
