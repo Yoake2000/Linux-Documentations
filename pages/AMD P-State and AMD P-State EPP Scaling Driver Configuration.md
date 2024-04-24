@@ -13,4 +13,8 @@
 		- The ``active`` mode is only available for kernel versions 6.3 and higher.
 	- If `guided` or `passive` is the preferred mode, just change the kernel parameter to be added into `amd_pstate=guided` or `amd_pstate=passive` respectively.
 		- The ``guided`` mode is only available for kernel versions 6.4 and higher.
-	- To verify if the `amd_pstate_epp`
+	- To verify if the `amd_pstate_epp` driver is being used, run the following command:
+		- ````
+		  cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver
+		  ```
+-
