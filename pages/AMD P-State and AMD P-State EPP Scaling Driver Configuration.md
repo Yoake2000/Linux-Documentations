@@ -18,4 +18,4 @@
 		  cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver
 		  ```
 - # Configuring Auto-Cpufreq to adjusts CPU governor and EPP hints automatically
-	- The [`amd_pstate_epp` scaling driver offers only two pseudo-governors](https://wiki.archlinux.org/title/CPU_frequency_scaling#Autonomous_frequency_scaling), `powersave` and `performance`.  They're similar with other scaling driver governors but work differently in that
+	- The [`amd_pstate_epp` scaling driver offers only two pseudo-governors](https://wiki.archlinux.org/title/CPU_frequency_scaling#Autonomous_frequency_scaling), `powersave` and `performance`.  They're similar with other scaling driver governors but work differently in that these governors need EPP hint to be passed unto the CPU internal governor.
