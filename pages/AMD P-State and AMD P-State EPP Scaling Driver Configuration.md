@@ -32,4 +32,5 @@
 		- It can also be configured to use preferred CPU governors by making a config file `/etc/auto-cpufreq.conf`. An example and instructions on how to configure the config file is in the program's [github repo.](https://github.com/AdnanHodzic/auto-cpufreq)
 	- We only need to adjust the CPU governor and EPP hint for battery and AC power source. From the aforementioned Phoronix tests, `powersave balanced_power` and `powersave power` governor and EPP hint pairs are best suited for power consumption and cpu temperature with little impact on the computer's performance when using AC power and Battery power respectively.
 	- The following lines on the `/etc/auto-cpufreq.conf` should be changed in order to set the previous governor and EPP pairing:
-		- under the `[charger]` block the lines `governor = powersave` and ``
+		- under the `[charger]` block the lines `governor = powersave` and `energy_performance_preference = balanced_performance` should be inserted/changed from default.
+		-
