@@ -46,9 +46,10 @@
 		- https://www.reddit.com/r/linux/comments/1aoaps4/amd_pstate_epp_amd_pstate_power_management_energy/
 		- https://forum.endeavouros.com/t/how-to-use-amd-p-state-in-linux/25247/425
 		- https://bbs.archlinux.org/viewtopic.php?id=292940
+		- https://www.reddit.com/r/framework/comments/18b9cp8/does_framework_have_cppc_enabled_for_linux/
 	- The following benchmarks deals with AMD P-state and may be useful:
 		- https://community.frame.work/t/responded-linux-amd-pstate-scaling-driver-benchmarks/45830
 		- https://www.phoronix.com/review/amd-pstate-first
-		- https://www.phoronix.com/news/AMD-P-State-Guided-Auto (Not a benchmark but it talks about a benchmark performed by AMD regarding `guided` mode.)
-	- Instead of `auto-cpufreq`, [`auto-epp`](https://github.com/jothi-prasath/auto-epp) can also be used. [`power-profiles-daemon`](https://gitlab.freedesktop.org/upower/power-profiles-daemon) can also be used for KDE and GNOME desktops. Note that they may conflict with each other and other programs such as `tlp`. For very min
+		- https://www.phoronix.com/news/AMD-P-State-Guided-Auto (Not a benchmark but it talks about a benchmark performed by AMD regarding `guided` mode.
+	- Instead of `auto-cpufreq`, [`auto-epp`](https://github.com/jothi-prasath/auto-epp) can also be used. [`power-profiles-daemon`](https://gitlab.freedesktop.org/upower/power-profiles-daemon) can also be used for KDE and GNOME desktops. Note that they may conflict with each other and other programs such as `tlp`. For a very minimalist but harder approach, `cron` can also be used.
 	-
