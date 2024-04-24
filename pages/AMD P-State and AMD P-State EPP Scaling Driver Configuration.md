@@ -21,4 +21,4 @@
 	- The [`amd_pstate_epp` scaling driver offers only two pseudo-governors](https://wiki.archlinux.org/title/CPU_frequency_scaling#Autonomous_frequency_scaling), `powersave` and `performance`.  They're similar with other scaling driver governors but work differently in that these governors need EPP hint to be passed unto the CPU internal governor.
 		- To check the current scaling driver governor, the following command can be used:
 			- `cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor`
-	-
+	- The EPP hints are
