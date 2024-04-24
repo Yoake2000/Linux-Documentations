@@ -50,4 +50,5 @@
 		- https://community.frame.work/t/responded-linux-amd-pstate-scaling-driver-benchmarks/45830
 		- https://www.phoronix.com/review/amd-pstate-first
 		- https://www.phoronix.com/news/AMD-P-State-Guided-Auto (Not a benchmark but it talks about a benchmark performed by AMD regarding `guided` mode.)
-	- Instead of `auto-cpufreq`, [`auto-epp`](https://github.com/jothi-prasath/auto-epp) can also be used. `power-profiles-daemon` can also be used for KDE and GNOME desktops. Note that
+	- Instead of `auto-cpufreq`, [`auto-epp`](https://github.com/jothi-prasath/auto-epp) can also be used. [`power-profiles-daemon`](https://gitlab.freedesktop.org/upower/power-profiles-daemon) can also be used for KDE and GNOME desktops. Note that they may conflict with each other and other programs such as `tlp`. For very min
+	-
