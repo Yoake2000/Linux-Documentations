@@ -40,4 +40,5 @@
 		  ```
 - # Notes:
 	- This guide is heavily inspired by a [Lemmy.world post](https://lemmy.world/post/3081149)that discusses on how to configure the AMD P-States EPP driver. This guide though tries to organize the information from the post regarding some terms and configurations with more sources  and is focused on automatically adjusting the CPU governors and the EPP hints on Ryzen Laptops.
-	- Some forum discussions were also used
+	- Some forum discussions were also consulted in creating this guide.
+		-
