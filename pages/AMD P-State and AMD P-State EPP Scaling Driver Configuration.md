@@ -3,5 +3,6 @@
 	- [`amd_pstate` has three operation modes](https://wiki.archlinux.org/title/CPU_frequency_scaling#amd_pstate):`active`,`passive` and `guided` . From a [phoronix article testing the amd_pstate 'passive' and 'active' mode along with `acpi-freq` performance](https://www.phoronix.com/review/amd-pstate-epp-ryzen-mobile), it is evident that `active` mode implemented by  `amd_pstate_epp` driver performs the best considering power consumption, cpu temperature and  computing performance. So far I haven't found any testing that includes the `guided` mode, as such this guide only considers the `active` mode only.
 	- To enable ``amd_pstate_epp`` scaling driver for AMD Ryzen Processors, the processor needs to be from `zen 2` and newer generations.
 	- To check if your device is able to use the scaling driver, `cpcc` support must be checked first using `lscpu | grep cppc`. The output must show `cpcc`. If it didn't, there may be a BIOS/UEFI setting needed to be changed first.
+	- For more info about `amd-pstate` and `cpcc`
 - # Enabling P-State EPP Scaling Driver
 	-
