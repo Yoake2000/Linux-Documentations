@@ -6,4 +6,5 @@
 	- To check if your device is able to use the scaling driver, `cpcc` support must be checked first using `lscpu | grep cppc`. The output must show `cpcc`. If it didn't, there may be a BIOS/UEFI setting needed to be changed first.
 	- For more info about `amd-pstate` and `cpcc`, there is the [kernel documentation.](https://docs.kernel.org/admin-guide/pm/amd-pstate.html)
 - # Enabling P-State EPP Scaling Driver
-	- To enable the `amd_pstate_epp` driver, the kernel module parameter ``
+	- To enable the `amd_pstate_epp` driver, the kernel module parameter `amd_pstate=active` must first be added. This may be unnecessary for newer Linux kernels.
+		- For Linux systems using the refind
