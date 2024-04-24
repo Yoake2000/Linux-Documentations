@@ -27,4 +27,5 @@
 		- ```
 		  cat /sys/devices/system/cpu/cpu0/cpufreq/energy_performance_available_preferences
 		  ```
-	- Mixing and matching the governors and EPP hints can yield different results (refer to the aforementioned )
+	- Mixing and matching the governors and EPP hints can yield different results (refer to the aforementioned [Phoronix article](https://www.phoronix.com/review/amd-pstate-epp-ryzen-mobile) for benchmarks.) in performance.
+	- The program `auto-cpufreq` automatically adjusts CPU governors and supports
