@@ -39,4 +39,4 @@
 		  sudo systemctl restart auto-cpufreq.service
 		  ```
 - # Notes:
-	- This guide is heavily inspired by a [Lemmy.world post](https://lemmy.world/post/3081149)that discusses on how to configure ``
+	- This guide is heavily inspired by a [Lemmy.world post](https://lemmy.world/post/3081149)that discusses on how to configure the AMD P-States EPP driver. This guide though tries to present it into
