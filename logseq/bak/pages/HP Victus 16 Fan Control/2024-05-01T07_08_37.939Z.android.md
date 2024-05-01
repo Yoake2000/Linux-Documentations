@@ -1,0 +1,4 @@
+- WIP
+- For Windows: https://github.com/UraniumDonut/nbfc-revive/issues/87
+- Using NBFC for linux
+-
