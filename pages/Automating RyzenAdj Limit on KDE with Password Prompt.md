@@ -5,7 +5,7 @@
 	- Setting power limits can be done on CLI using:
 		- `# ryzenadj  --stapm-limit=10000 --fast-limit=10000 --slow-limit=10000 `
 		- needing `sudo` to run
-	- #To_Improve
+	- ### To_Improve
 		- Possible references:
 			- https://www.reddit.com/r/archlinux/comments/pwpk8o/in_my_laptop_linux_has_very_bad_battery_duration/
 			-
