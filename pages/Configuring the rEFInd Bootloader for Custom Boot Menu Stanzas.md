@@ -23,4 +23,5 @@
 		- ```
 		  banner themes/darkmini/bg/ubuntu_style.png  
 		  ```
-- #
+- # Adding Custom Boot Menu Stanzas
+	-
