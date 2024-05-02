@@ -8,5 +8,8 @@
 		- ```
 		  sudo systemctl enable --now supergfxd.service
 		  ```
-	- Install the Plasma 6 applet from the /l
+	- Install the Plasma 6 applet from the [AUR.](https://aur.archlinux.org/packages/plasma6-applets-supergfxctl/)
+	- Reboot
+- # Adding GPU modes selection on Refind Bootloader
+	-
 -
