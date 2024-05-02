@@ -31,4 +31,26 @@
 	- By default, rEFInd auto detects installations and automatically add manual boot stanzas for them. For Linux systems, passing kernel options/parameters can be done on `/boot/refind_linux.conf`
 	- Adding Custom Boot Menu Stanzas is done on `/boot/EFI/refind/refind.conf`. The configuration file is already extensively documented within its own file.
 	- I use a custom boot menu stanza for my Arch Linux system. I first disabled the automatic scan by rEFInd by removing the `internal` option in the `scanfor` line. Be careful when doing this since if the custom boot menu stanza doesn't work (wrong options in the config file, etc) you wouldn't be able to boot easily into the system in rEFInd. You would need some other way to boot into the system or to edit the `refind.conf` file.
-	- My curren
+	- My current custom boot menu stanza is:
+		- ```
+		  menuentry "Arch Linux" {
+		      icon     /EFI/refind/themes/darkmini/icons/os_arch.png
+		      volume   "Arch Linux"
+		      loader   /vmlinuz-linux
+		      initrd   /initramfs-linux.img
+		      options  "cryptdevice=PARTUUID=367c4973-3dd4-ed4c-ad44-d9990213dfc9:luksdev resume=UUID=da08223c-a742-4a82-9275-f02ec2703bba root=/dev/mapper/luksdev zswap.enabled=0 rw rootfstype=ext4 quiet splash loglevel=3 systemd.show_status=auto rd.udev.log_level=3 nvidia_drm.modeset=1 amd_pstate=active acpi_enforce_resources=lax iommu=soft amd_iommu=fullflush"
+		      submenuentry "Boot to single-user mode" {
+		          options	"cryptdevice=PARTUUID=367c4973-3dd4-ed4c-ad44-d9990213dfc9:luksdev root=/dev/mapper/luksdev zswap.enabled=0 rw rootfstype=ext4 single"
+		      }
+		      submenuentry "Boot with minimal options" {
+		          options	"ro root=/dev/mapper/luksdev"
+		      }
+		      submenuentry "Integrated GPU mode"	{
+		     	add_options "supergfxd.mode=Integrated"
+		      }
+		      submenuentry "Hybrid GPU mode"	{
+		     	add_options "supergfxd.mode=Hybrid"
+		      }
+		  }
+		  ```
+		- The two
