@@ -24,4 +24,4 @@
 		  banner themes/darkmini/bg/ubuntu_style.png  
 		  ```
 - # Adding Custom Boot Menu Stanzas
-	-
+	- By default, rEFInd auto detects installations and automatically add manual boot stanzas for them.
