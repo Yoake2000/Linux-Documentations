@@ -56,6 +56,8 @@
 		  ```
 		- The two last submenu's are for GPU switching modes by `supergfxcontrol`.
 - # Notes
-- # References
+- # Relevant Sites
 	- https://bbs.archlinux.org/viewtopic.php?id=258468
+	- https://github.com/evanpurkhiser/rEFInd-minimal
+	-
 	-
