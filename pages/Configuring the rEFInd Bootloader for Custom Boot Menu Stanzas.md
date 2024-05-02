@@ -25,3 +25,4 @@
 		  ```
 - # Adding Custom Boot Menu Stanzas
 	- By default, rEFInd auto detects installations and automatically add manual boot stanzas for them. For Linux systems, passing kernel options/parameters can be done on `/boot/refind_linux.conf`
+	-
