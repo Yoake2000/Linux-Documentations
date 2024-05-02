@@ -19,4 +19,8 @@
 		- ```
 		  include themes/darkmini/theme.conf
 		  ```
-	- The background image can be selected by setting
+	- The background image can be selected by setting the `banner` option in the theme file (From one of the previous lines).
+		- ```
+		  banner themes/darkmini/bg/ubuntu_style.png  
+		  ```
+- #
