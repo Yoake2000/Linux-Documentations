@@ -53,4 +53,7 @@
 		      }
 		  }
 		  ```
-		- The two
+		- The two last submenu's are for GPU switching modes by `supergfxcontrol`.
+- # Notes
+- # References
+	-
