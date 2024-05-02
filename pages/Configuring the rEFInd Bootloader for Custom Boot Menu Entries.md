@@ -12,4 +12,6 @@
 		- ```
 		  git clone https://github.com/LightAir/darkmini.git
 		  ```
-	- Add the following line on the rEFInd config file
+	- Add the following line on the rEFInd config file `/boot/EFI/refind/refind.conf`
+		- ```
+		  ```
