@@ -4,4 +4,9 @@
 	- For Optimus Laptops, the NVIDIA proprietary drivers are needed and no other GPU switcher tool installed. For more info refer to [ for Arch Linux systems](https://wiki.archlinux.org/title/Supergfxctl) or your own distro's documentations.
 - # Installation and Setting up on KDE
 	- Install from the [AUR](https://aur.archlinux.org/packages/supergfxctl/).
-	-
+	- Enable the SystemD service
+		- ```
+		  sudo systemctl enable --now supergfxd.service
+		  ```
+	- Install the Plasma 6 applet from the /l
+-
