@@ -8,7 +8,8 @@
 		  mount
 		  ```
 	- Create a `themes` folder on the previously mentioned directory
-	- Clone the theme inside the `themes` folder.
+	- Clone the theme inside the `themes` folder. This may need `root` privileges
 		- ```
 		  git clone https://github.com/LightAir/darkmini.git
 		  ```
+	- Add the following line on the rEFInd
