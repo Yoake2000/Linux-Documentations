@@ -1,0 +1,3 @@
+# Prerequisites
+	- The Refind Bootloader must be installed and set
+-
