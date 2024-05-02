@@ -12,4 +12,4 @@
 		- ```
 		  git clone https://github.com/LightAir/darkmini.git
 		  ```
-	- Add the following line on the rEFInd
+	- Add the following line on the rEFInd config file
