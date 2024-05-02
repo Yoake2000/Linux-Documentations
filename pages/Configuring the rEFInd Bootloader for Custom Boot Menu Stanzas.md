@@ -56,7 +56,7 @@
 		  ```
 		- The two last submenu's are for GPU switching modes by `supergfxcontrol`.
 - # Notes
-	- Depending on how the `EFI`
+	- Depending on how the bootloader partition/s are in the system, directories for this guide may vary. Refer to the Arch Wiki for more info
 - # Relevant Sites
 	- https://bbs.archlinux.org/viewtopic.php?id=258468
 	- https://github.com/evanpurkhiser/rEFInd-minimal
