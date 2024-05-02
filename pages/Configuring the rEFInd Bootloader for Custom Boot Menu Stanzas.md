@@ -54,7 +54,7 @@
 		      }
 		  }
 		  ```
-		- The two last submenu's are for GPU switching modes by `supergfxcontrol`.
+		- The two last submenu's are for GPU switching modes by `supergfxcontrol`. Refer to [[Using supergfxcontrol for GPU mode switching at boot]] on how to set up `supergfxcontrol` in KDE Arch Linux.
 - # Notes
 	- Depending on how the bootloader partition/s are in the system, directories for this guide may vary. Refer to the [Arch Wiki](https://wiki.archlinux.org/title/REFInd) for more info
 - # Relevant Sites
