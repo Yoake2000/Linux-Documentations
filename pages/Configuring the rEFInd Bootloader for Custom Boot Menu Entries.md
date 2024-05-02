@@ -12,6 +12,11 @@
 		- ```
 		  git clone https://github.com/LightAir/darkmini.git
 		  ```
-	- Add the following line on the rEFInd config file `/boot/EFI/refind/refind.conf`
+	- Add one of the following lines on the rEFInd config file `/boot/EFI/refind/refind.conf`
 		- ```
+		  include themes/darkmini/theme-mini.conf
 		  ```
+		- ```
+		  include themes/darkmini/theme.conf
+		  ```
+	- The background image can be selected by setting
