@@ -28,6 +28,7 @@
 		  banner themes/darkmini/bg/ubuntu_style.png  
 		  ```
 - # Adding Custom Boot Menu Stanzas
+  id:: 6633b1dd-15b1-44ec-ace9-41dae827b72e
 	- By default, rEFInd auto detects installations and automatically add manual boot stanzas for them. For Linux systems, passing kernel options/parameters can be done on `/boot/refind_linux.conf`
 	- Adding Custom Boot Menu Stanzas is done on `/boot/EFI/refind/refind.conf`. The configuration file is already extensively documented within its own file.
 	- I use a custom boot menu stanza for my Arch Linux system. I first disabled the automatic scan by rEFInd by removing the `internal` option in the `scanfor` line. Be careful when doing this since if the custom boot menu stanza doesn't work (wrong options in the config file, etc) you wouldn't be able to boot easily into the system in rEFInd. You would need some other way to boot into the system or to edit the `refind.conf` file.
@@ -56,4 +57,5 @@
 		- The two last submenu's are for GPU switching modes by `supergfxcontrol`.
 - # Notes
 - # References
+	- https://bbs.archlinux.org/viewtopic.php?id=258468
 	-

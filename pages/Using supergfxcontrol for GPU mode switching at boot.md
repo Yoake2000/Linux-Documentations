@@ -11,5 +11,4 @@
 	- Install the Plasma 6 applet from the [AUR.](https://aur.archlinux.org/packages/plasma6-applets-supergfxctl/)
 	- Reboot
 - # Adding GPU modes selection on Refind Bootloader
-	-
--
+	- Refer to ((6633b1dd-15b1-44ec-ace9-41dae827b72e)).
