@@ -1,3 +1,0 @@
-- Force all android apps to be rotatable.
-	- Use the following adb command or in termux (with root) and removing `adb shell`
-		- ``adb shell wm set-ignore-orientation-request true``
