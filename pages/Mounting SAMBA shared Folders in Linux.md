@@ -22,4 +22,4 @@
 					- ```
 					  #	chmod 744 <<CREDENTIAL FILE LOCATION>>
 					  ```
-			- The ``x-systemd``
+			- The ``x-systemd`` options are for automounting only when accessed and for giving a time befor
