@@ -10,5 +10,7 @@
 		  ```
 	- From the Arch wiki. For my personal machine I used the following line:
 		- ```
+		  //192.168.201.3/NetworkDrive /home/$USER/NetworkDrive cifs _netdev,credentials=<<CREDENTIAL LOCATION HERE>>,noauto,nofail,x-systemd.automount,cache=none,users,x-systemd.device-timeout=10ms 0 0 nodfs
 		  ```
--
+			- My credentials are stored in a file located somewhere in my root directory.
+			-
