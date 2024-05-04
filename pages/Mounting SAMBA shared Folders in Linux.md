@@ -18,4 +18,6 @@
 				  username=value
 				  password=value
 				  ```
-			- It is write-protected. I tried to only give my
+			- It is write-protected. I tried to only give my user account the permission to read the file but it breaks the mounting function in KDE Dolphin File Manager. As of now the permissions of the credential file is given by the following:
+				- ```
+				  ```
