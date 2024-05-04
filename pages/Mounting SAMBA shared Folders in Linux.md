@@ -13,11 +13,13 @@
 		  //192.168.201.3/NetworkDrive /home/$USER/NetworkDrive cifs _netdev,credentials=<<CREDENTIAL LOCATION HERE>>,noauto,nofail,x-systemd.automount,cache=none,users,x-systemd.device-timeout=10ms 0 0 nodfs
 		  ```
 			- My credentials are stored in a file located somewhere in my root directory.
-			- It has the following format
-				- ```
-				  username=value
-				  password=value
-				  ```
-			- It is write-protected. I tried to only give my user account the permission to read the file but it breaks the mounting function in KDE Dolphin File Manager. As of now the permissions of the credential file is given by the following:
-				- ```
-				  ```
+				- It has the following format
+					- ```
+					  username=value
+					  password=value
+					  ```
+				- It is write-protected. I tried to only give my user account the permission to read the file but it breaks the mounting function in KDE Dolphin File Manager. As of now the permissions of the credential file is given by the following:
+					- ```
+					  #	chmod 744 <<CREDENTIAL FILE LOCATION>>
+					  ```
+			- The ``x-systemd``
