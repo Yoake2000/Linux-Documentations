@@ -1,3 +1,4 @@
 # Prerequisites
-	- A
+	- A samba server must already be configured and is sharing a drive across the network.
+		- I already had two drives shared through samba on my Raspberry Pi 4. The configuration was alrea
 -
