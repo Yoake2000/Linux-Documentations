@@ -4,6 +4,11 @@
 	- samba must already be configured for client use on the computer. The [Arch wiki](https://wiki.archlinux.org/title/samba#Client) is a good place to refer for this for almost all Linux distros.
 	-
 - # Automount samba drive as mount entry
-	- Edit the `/etc/fstab` file
-	-
+	- Edit the `/etc/fstab` file with the following entry
+		- ```
+		  //SERVER/sharename /mnt/mountpoint cifs _netdev,nofail,username=myuser,password=mypass 0 0
+		  ```
+	- From the Arch wiki. For my personal machine I used the following line:
+		- ```
+		  ```
 -
