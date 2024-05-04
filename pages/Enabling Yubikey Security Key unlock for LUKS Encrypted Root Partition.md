@@ -1,4 +1,4 @@
-- [[#red]]==**Note: Copied From an .md file written on November 8,2023**==
+- Note: Copied From an .md file written on November 8,2023
 - Note: The LUKS Encrypted Partitions used in my workstation is created by the Arch Linux Script Installer and steps outlined here may differ for case to case basis. The home partition was also encrypted by the script and its decryption follows after the decryption of the root partition. Configurations pertaining to LUKS encryption except for the ones changed in the following steps are unchanged from stock (script installer).
 - Add "sd-encrypt" hook to /etc/mkinitcpio.conf (To test replacing encrypt with sd-encrypt. Currently running both hooks.
 	- Relevant discussion: https://www.reddit.com/r/archlinux/comments/1307cke/encrypt_vs_sdencrypt_mkinitcpio_hooks/)
