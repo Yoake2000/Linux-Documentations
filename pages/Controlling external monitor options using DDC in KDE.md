@@ -1,8 +1,8 @@
-# Prerequisites
+## Prerequisites
 	- External Monitor Brightness are not controllable from within the desktop GUI without 3rd-party programs.
 	- Information for controlling the display brightness (and other options) from within Linux is documented by [this article](https://wiki.archlinux.org/title/backlight) from the Archlinux Wiki.
 		- `ddcutil` is a cli program used to query and set those settings. `ddcui` is a graphical user interface for ddcutil and is [available on the AUR.](https://aur.archlinux.org/packages/ddcui)
-- # Plasmoid: KDE Plasma Widget for external monitor brightness adjustment
+- ## Plasmoid: KDE Plasma Widget for external monitor brightness adjustment
 	- A KDE Plasma widget is available as an interface for `ddcutil`. It can be found on this [repo.](https://github.com/davidhi7/ddcci-plasmoid) A detailed instruction is found from within the README of the repo. This page will discuss only the specific steps performed for my specific machine.
 		- `ddcutil` is a required dependency for this widget to run. Other dependencies are found on the repo. `ddcui` is an optional program to be able to control more settings for the external monitors using a gui as this widget only controls the brightness.
 	- As of [[Apr 16th, 2024]], my system is running KDE Plasma 6 under Arch Linux. The widget is already updated to be compatible for Plasma 6 and thus following the instructions from the repo is a breeze.
