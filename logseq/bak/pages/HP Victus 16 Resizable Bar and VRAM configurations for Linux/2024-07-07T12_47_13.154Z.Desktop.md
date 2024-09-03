@@ -1,7 +1,11 @@
 - Checking for Dynamic VRAM and BAR values within linux using
 	- Following ways
-		- `lspci -v | grep -i 'memory at'``
-		- sudo dmesg | grep BAR`
+		- ```
+		  lspci -v | grep -i 'memory at'
+		  ```
+		- ```
+		  sudo dmesg | grep BAR
+		  ```
 		- and within Ryzen Controller
 	- yields values that would correspond to the system not having ReBAR or Dynamic RAM. When checking with windows (through ryzen controller) the system uses dynamic vram.
 	-
