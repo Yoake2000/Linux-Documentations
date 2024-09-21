@@ -7,7 +7,7 @@
   id:: 661dd702-b5fa-4e99-8259-534692b87edf
   
     ```
-    $ mkdir ~/.config/Yubico
+    $ mkdir ~/.config/Yubico 
     $ pamu2fcfg -o pam://hostname -i pam://hostname > ~/.config/Yubico/u2f_keys
   ```
   
