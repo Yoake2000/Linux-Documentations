@@ -68,4 +68,4 @@
 		  # btrfs sub create /mnt/@home
 		  # umount /mnt
 		  ```
-		- The guide also made a sub volume for the snapshots
+		- The guide also made a sub volume for the snapshots. I will be using `timeshift` to create snapshots so it was not needed. Maybe in the future I will be using it
