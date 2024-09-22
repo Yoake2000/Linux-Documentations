@@ -41,6 +41,6 @@
 		- ```
 		  Command (? for help): w
 		  ```
-	- I've also created a swap partition right before the root partition.
+	- I've also created a swap partition right before the root partition. From the guides, they're using a swap file inside the encrypted partition. I may use that in the future and will be editing this guide
 - Encrypting the Disks
 	-
