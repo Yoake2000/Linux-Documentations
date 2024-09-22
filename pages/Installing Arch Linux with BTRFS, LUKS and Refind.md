@@ -1,1 +1,1 @@
-- This guide is based on this \lemmy.ml post which is also heavily based on a blog post
+- This guide is based on this [lemmy.ml post](https://lemmy.ml/post/61254) which is also heavily based on this [blog post.](https://nerdstuff.org/posts/2020/2020-004_arch_linux_luks_btrfs_systemd-boot/) I have outlined here my steps in reinstalling my arch linux system after it had a
