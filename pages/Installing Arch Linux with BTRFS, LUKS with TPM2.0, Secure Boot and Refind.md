@@ -53,14 +53,17 @@
 		  ```
 - File System Creation
 	- Format the EFI partition with FAT32 and give it the label `EFI` - you can choose any other label name:
+	  collapsed:: true
 		- ```
 		  # mkfs.vfat -F32 -n EFI /dev/sda1
 		  ```
 	- Format the root partition with Btrfs and give it the label `ROOT` - you can choose any other label name. If you didn’t open the LUKS container under the name “`luks`” you must adjust the command accordingly:
+	  collapsed:: true
 		- ```
 		  # mkfs.btrfs -L ROOT /dev/mapper/luks
 		  ```
 	- Create and Mount Sub Volumes
+	  collapsed:: true
 		- Create [sub volumes](https://wiki.archlinux.org/index.php/Btrfs#Subvolumes) for root, home, the package cache, and the entire Btrfs file system:
 		- ```
 		  # mount /dev/mapper/luks /mnt
@@ -80,7 +83,8 @@
 		  # mount /dev/nvme0n1p1 /mnt/boot
 		  ```
 	- Install Arch Linux (adjust this list to your needs):
-	- ```
+	- collapsed:: true
+	  ```
 	  # pacstrap /mnt linux-zen linux-firmware base btrfs-progs intel-ucode vim
 	  ```
 		- I used `linux-zen` and `vim` here. The kernel lets me use `waydroid` without any new kernel modules but I must use the `dkms` version of nvidia drivers for the dgpu to work.
@@ -98,6 +102,12 @@
 		  # echo <YOUR-HOSTNAME> > /etc/hostname
 		  ```
 		- Set locale:
+		  collapsed:: true
 			- ```
 			  # echo LANG=en_US.UTF-8 > /etc/locale.conf
 			  ```
+		- Uncomment the following rows of `/etc/locale.gen`:
+		- ```
+		  #en_US.UTF-8 UTF-8
+		  ```
+			- I've uncommented out more lines so that I can use some more
