@@ -17,3 +17,6 @@
 		  # pacman -Sy archlinux-keyring
 		  ```
 		- The system installed after would also need its time to be synced up. I followed
+		- Relevant Links
+			- https://bbs.archlinux.org/viewtopic.php?id=292688
+		-
