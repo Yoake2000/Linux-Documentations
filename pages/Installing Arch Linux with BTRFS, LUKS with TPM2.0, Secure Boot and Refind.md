@@ -41,6 +41,6 @@
 		- ```
 		  Command (? for help): w
 		  ```
-	-
+	- I've also created a swap partition right before the root partition.
 - Encrypting the Disks
 	-
