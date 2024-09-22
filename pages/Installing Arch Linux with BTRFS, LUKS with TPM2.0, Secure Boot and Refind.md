@@ -181,6 +181,6 @@
 			  ```
 			- More info on the [Arch wiki.](https://wiki.archlinux.org/title/KDE)
 		- Nvidia Drivers
-			- Since I'm using the `linux-zen` kernel I need
+			- Since I'm using the `linux-zen` kernel and want to use the beta drivers I first need to install `yay`, an AUR helper.
 			- ```
 			  ```
