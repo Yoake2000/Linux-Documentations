@@ -80,4 +80,7 @@
 		  # mount /dev/nvme0n1p1 /mnt/boot
 		  ```
 	- Install Arch Linux (adjust this list to your needs):
-		-
+	- ```
+	  # pacstrap /mnt linux-zen linux-firmware base btrfs-progs intel-ucode vim
+	  ```
+		- I used `linux-zen` and `vim` here. The kernel lets me use `waydroid` without any new kernel mod
