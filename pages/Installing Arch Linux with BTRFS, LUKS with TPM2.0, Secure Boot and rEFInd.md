@@ -200,14 +200,17 @@
 		- ```
 		  $ sudo pacman -Syu timeshift
 		  ```
-- # Enabling Secure Boot
+- # Enabling Secure Boot and TPM 2.0
 	- Enabling Secure Boot in `rEFind` using Pre Signed Bootloader.
-	- Install `preloader-signed` from the `AUR`
-	- ```
-	  $ yay -Syu preloader-signed
-	  ```
-	- Run `refind-install` with some options
-	- ```
-	  # refind-install --preloader /usr/share/preloader-signed/PreLoader.efi
-	  ```
-	- After a reboot with Secure Boot enabled from the `UEFI` firmware menu, HashTool will launch and it is needed to enroll the hash of rEFInd `loader.efi` and the kernel `vmlinuz-linux-zen`
+		- Install `preloader-signed` from the `AUR`
+		- ```
+		  $ yay -Syu preloader-signed
+		  ```
+		- Run `refind-install` with some options
+		- ```
+		  # refind-install --preloader /usr/share/preloader-signed/PreLoader.efi
+		  ```
+		- After a reboot with Secure Boot enabled from the `UEFI` firmware menu, HashTool will launch and it is needed to enroll the hash of rEFInd `loader.efi` and the kernel `vmlinuz-linux-zen`
+	- TPM 2.0
+		- Check if the system supop
+-
