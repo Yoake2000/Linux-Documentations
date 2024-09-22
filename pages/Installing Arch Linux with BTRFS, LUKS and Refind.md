@@ -1,1 +1,1 @@
-- This guide is based
+- This guide is based on this \lemmy.ml post which is also heavily based on a blog post
