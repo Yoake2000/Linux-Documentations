@@ -201,4 +201,7 @@
 		  $ sudo pacman -Syu timeshift
 		  ```
 - # Enabling Secure Boot
-	- Enabling Secure Boot in
+	- Enabling Secure Boot in `REFind` using Pre Signed Bootloader.
+	- Install `preloader-signed` from the `AUR`
+	- ```
+	  ```
