@@ -10,4 +10,4 @@
 	  # timedatectl set-ntp true
 	  ```
 	- My first problem occurred here. Maybe due to the ISP servers or some unknown reason, my system clock can't sync.
-	- Due to the clock not synced up with the servers,
+	- Due to the clock not synced up with the servers, the installation environment can't automatically run some commands
