@@ -189,4 +189,8 @@
 			- ```
 			  $ yay -S nvidia-open-beta-dkms nvidia-utils-beta
 			  ```
-			-
+			- Install `timeshift`
+			- ```
+			  $ sudo pacman -Syu timeshift
+			  ```
+	-
