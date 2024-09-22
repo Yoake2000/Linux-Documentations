@@ -89,4 +89,15 @@
 	  # genfstab -U /mnt >> /mnt/etc/fstab
 	  ```
 	- System Configuration
-		-
+		- `chroot` into the new system:
+		- ```
+		  # arch-chroot /mnt/
+		  ```
+		- Set host name:
+		- ```
+		  # echo <YOUR-HOSTNAME> > /etc/hostname
+		  ```
+		- Set locale:
+			- ```
+			  # echo LANG=en_US.UTF-8 > /etc/locale.conf
+			  ```
