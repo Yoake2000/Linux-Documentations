@@ -219,5 +219,11 @@
 		- ```
 		  /sys/class/tpm/tpm0/tpm_version_major
 		  ```
-		- If the system supports it, run the following command to check if the system
+		- If the system supports it, run the following command to check if the system is configured properly (from the initramfs hooks earlier)
+		- ```
+		  systemd-cryptenroll --tpm2-device=list
+		  ```
+		- Run the following to enroll the TPM 2.0 key to our encrypted drive `/dev/nvme0n1p3`
+		- ```
+		  ```
 -
