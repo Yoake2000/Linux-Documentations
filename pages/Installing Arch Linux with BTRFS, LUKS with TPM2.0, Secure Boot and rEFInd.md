@@ -212,5 +212,12 @@
 		  ```
 		- After a reboot with Secure Boot enabled from the `UEFI` firmware menu, HashTool will launch and it is needed to enroll the hash of rEFInd `loader.efi` and the kernel `vmlinuz-linux-zen`
 	- TPM 2.0
-		- Check if the system supop
+		- Check if the system supports TPM 2.0
+		- ```
+		  cat /sys/class/tpm/tpm0/device/description
+		  ```
+		- ```
+		  /sys/class/tpm/tpm0/tpm_version_major
+		  ```
+		- If the system supports it, run the following command to check if the system
 -
