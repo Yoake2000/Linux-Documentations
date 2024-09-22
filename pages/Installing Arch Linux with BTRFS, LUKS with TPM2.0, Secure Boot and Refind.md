@@ -101,6 +101,12 @@
 		- ```
 		  # echo <YOUR-HOSTNAME> > /etc/hostname
 		  ```
+		- create a user and a password, first the root password:
+		- ```
+		  # passwd
+		  ```
+		- Create a user
+		- #
 		- Set locale:
 		  collapsed:: true
 			- ```
