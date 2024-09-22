@@ -177,5 +177,10 @@
 	- After logging on the system, A desktop environment can then be installed along with the other drivers such as the Nvidia GPU drivers.
 		- For my system I installed the KDE Plasma DE
 			- ```
-			  # sudo pacman -Syu 
+			  # sudo pacman -Syu plasma-meta
+			  ```
+			- More info on the [Arch wiki.](https://wiki.archlinux.org/title/KDE)
+		- Nvidia Drivers
+			-
+			- ```
 			  ```
