@@ -27,4 +27,7 @@
 		  ```
 	- Create a new partition table by selecting `o`
 		- ```
+		  Command (? for help): o
 		  ```
+	- Create an EFI partition (I chose a size of 1G to fit more kernels sometime in the future. The hex code is `EF00` for the boot partition):
+	-
