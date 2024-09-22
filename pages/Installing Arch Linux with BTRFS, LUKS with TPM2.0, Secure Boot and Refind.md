@@ -162,4 +162,6 @@
 	- ```
 	  # refind-install
 	  ```
-	- Ex
+	- Edit `/boot/EFI/refind/refind.conf` and
+	- Exit the `chroot` and reboot the system.
+	-
