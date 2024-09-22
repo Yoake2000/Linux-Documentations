@@ -201,3 +201,4 @@
 		  $ sudo pacman -Syu timeshift
 		  ```
 - # Enabling Secure Boot
+	- Enabling Secure Boot in
