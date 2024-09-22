@@ -45,6 +45,10 @@
 - Encrypting the Disks
 	- First is to create an encrypted container for the root file system. A passphrase is needed to be defined.
 		- ```
-		  cryptsetup luksFormat /dev/sda2
+		  # cryptsetup luksFormat /dev/sda2
+		  ```
+	- The encrypted container is needed to be unlocked for it to be used. Same with the guides, I used `luks` as the placeholder here.
+		- ```
+		  # cryptsetup open /dev/sda2 luks
 		  ```
 	-
