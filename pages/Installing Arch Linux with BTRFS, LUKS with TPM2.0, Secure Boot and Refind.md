@@ -177,10 +177,16 @@
 	- After logging on the system, A desktop environment can then be installed along with the other drivers such as the Nvidia GPU drivers.
 		- For my system I installed the KDE Plasma DE
 			- ```
-			  # sudo pacman -Syu plasma-meta
+			  $ sudo pacman -Syu plasma-meta
 			  ```
 			- More info on the [Arch wiki.](https://wiki.archlinux.org/title/KDE)
 		- Nvidia Drivers
 			- Since I'm using the `linux-zen` kernel and want to use the beta drivers I first need to install `yay`, an AUR helper.
 			- ```
+			  $ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 			  ```
+			- Then install the Nvidia drivers
+			- ```
+			  $ yay -S nvidia-open-beta-dkms nvidia-utils-beta
+			  ```
+			-
