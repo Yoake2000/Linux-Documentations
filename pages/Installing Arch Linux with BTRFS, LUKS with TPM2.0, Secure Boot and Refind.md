@@ -162,7 +162,7 @@
 	- ```
 	  # refind-install
 	  ```
-	- Edit `/boot/EFI/refind/refind.conf` and  add the following entry at the bottom. More info on [[Configuring the rEFInd Bootloader for Custom Boot Menu Stanzas]]
+	- Edit `/boot/EFI/refind/refind.conf` and  add the following entry at the bottom. More info on [[Configuring the rEFInd Bootloader for Custom Boot Menu Stanzas]] Necessary parts here are the `rd.luks` and `root` parameters for the encrypted drives.
 	- ```
 	  menuentry "Arch Linux" {
 	      icon     /EFI/refind/themes/darkmini/icons/os_arch.png
