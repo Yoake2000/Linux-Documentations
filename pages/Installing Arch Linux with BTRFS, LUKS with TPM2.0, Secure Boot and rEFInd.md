@@ -225,5 +225,10 @@
 		  ```
 		- Run the following to enroll the TPM 2.0 key to our encrypted drive `/dev/nvme0n1p3`
 		- ```
+		  $ sudo systemd-cryptenroll --tpm2-device=auto --tpm2-pcrs=0,7 /dev/nvme0n1p3
 		  ```
--
+		- Add the following to the bootloader entry
+		- ```
+		  rd.luks.options=tpm2-device=auto
+		  ```
+	-
