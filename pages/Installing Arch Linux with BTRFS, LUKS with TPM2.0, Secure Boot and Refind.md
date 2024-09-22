@@ -158,4 +158,8 @@
 	- ```
 	  pacman -S linux-zen-headers networkmanager dialog wpa_supplicant mtools dosfstools git xdg-utils xdg-user-dirs alsa-utils pipewire pipewire-alsa pipewire-pulse apparmor refind
 	  ```
-	-
+	- Install `REFind` as the boot loader
+	- ```
+	  # refind-install
+	  ```
+	- Ex
