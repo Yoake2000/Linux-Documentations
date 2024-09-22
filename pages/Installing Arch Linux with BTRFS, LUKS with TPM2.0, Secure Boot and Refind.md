@@ -113,7 +113,14 @@
 			- ```
 			  # EDITOR=vim visudo
 			  ```
-		-
+		- Uncomment the following
+		- ```
+		  %wheel ALL=(ALL) ALL
+		  ```
+		- Add a password for the user
+		- ```
+		  passwd <YOUR-USERNAME>
+		  ```
 		- Set locale:
 		  collapsed:: true
 			- ```
@@ -132,4 +139,9 @@
 		- ```
 		  # ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 		  ```
-		-
+		- Define hosts in `/etc/hosts`:
+		- ```
+		  #<ip-address>	<hostname.domain.org>	<hostname>
+		  127.0.0.1	<YOUR-HOSTNAME>.localdomain	<YOUR-HOSTNAME>
+		  ::1		localhost.localdomain	localhost
+		  ```
