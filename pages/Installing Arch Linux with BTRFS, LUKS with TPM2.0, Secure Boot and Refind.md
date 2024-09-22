@@ -145,4 +145,8 @@
 		  127.0.0.1	<YOUR-HOSTNAME>.localdomain	<YOUR-HOSTNAME>
 		  ::1		localhost.localdomain	localhost
 		  ```
-	-
+	- Configuring the initramfs
+		- Configure the creation of [initramfs](https://wiki.archlinux.org/index.php/Arch_boot_process#initramfs) by editing `/etc/mkinitcpio.conf`. Change the line `HOOKS=...` to:
+		- ```
+		  HOOKS=(base keyboard udev autodetect modconf block keymap encrypt btrfs filesystems resume)
+		  ```
