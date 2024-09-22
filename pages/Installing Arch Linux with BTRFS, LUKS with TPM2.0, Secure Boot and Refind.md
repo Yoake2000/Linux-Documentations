@@ -74,7 +74,10 @@
 		  # mount -o noatime,nodiratime,compress=zstd,space_cache=v2,ssd,subvol=@ /dev/mapper/luks /mnt
 		  # mkdir -p /mnt/{boot,home}
 		  # mount -o noatime,nodiratime,compress=zstd,space_cache=v2,ssd,subvol=@home /dev/mapper/luks /mnt/home
-		  # mount -o noatime,nodiratime,compress=zstd,space_cache=v2,ssd,subvol=@pkg /dev/mapper/luks /mnt/var/cache/pacman/pkg
-		  # mount -o noatime,nodiratime,compress=zstd,space_cache=v2,ssd,subvol=@snapshots /dev/mapper/luks /mnt/.snapshots
-		  # mount -o noatime,nodiratime,compress=zstd,space_cache=v2,ssd,subvolid=5 /dev/mapper/luks /mnt/btrfs
 		  ```
+		- Mount the EFI partition
+		- ```
+		  # mount /dev/nvme0n1p1 /mnt/boot
+		  ```
+	- Install Arch Linux (adjust this list to your needs):
+		-
