@@ -16,7 +16,7 @@
 		  # pacman-key --populate archlinux
 		  # pacman -Sy archlinux-keyring
 		  ```
-		- The system installed after would also need its time to be synced up. I followed
+		- The system installed after would also need its time to be synced up. I followed up the steps from the top comment of [this post.](https://www.reddit.com/r/archlinux/comments/15zgd4y/time_sync_wont_sync_help/)
 		- Relevant Links
 			- https://bbs.archlinux.org/viewtopic.php?id=292688
-		-
+-
