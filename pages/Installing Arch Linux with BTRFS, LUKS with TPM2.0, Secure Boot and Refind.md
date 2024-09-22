@@ -52,4 +52,13 @@
 		  # cryptsetup open /dev/sda2 luks
 		  ```
 - File System Creation
-	-
+	- Format the EFI partition with FAT32 and give it the label `EFI` - you can choose any other label name:
+		- ```
+		  # mkfs.vfat -F32 -n EFI /dev/sda1
+		  ```
+	- Format the root partition with Btrfs and give it the label `ROOT` - you can choose any other label name. If you didn’t open the LUKS container under the name “`luks`” you must adjust the command accordingly:
+		- ```
+		  # mkfs.btrfs -L ROOT /dev/mapper/luks
+		  ```
+	- Create and Mount Sub Volumes
+		- Create [sub volumes](https://wiki.archlinux.org/index.php/Btrfs#Subvolumes) for root, home, the package cache, [snapshots](https://wiki.archlinux.org/index.php/Btrfs#Snapshots) and the entire Btrfs file system:
