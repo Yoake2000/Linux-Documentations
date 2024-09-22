@@ -12,4 +12,8 @@
 	- My first problem occurred here. Maybe due to the ISP servers or some unknown reason, my system clock can't sync.
 	- Due to the clock not synced up with the servers, the installation environment can't automatically run some commands in order to sync up with their servers. This would cause some problems in the installation of packages. To resolve, the following should be run
 		- ```
+		  # pacman-key --init
+		  # pacman-key --populate archlinux
+		  # pacman -Sy archlinux-keyring
 		  ```
+		- The system installed after would also need its time to be synced up. I followed
