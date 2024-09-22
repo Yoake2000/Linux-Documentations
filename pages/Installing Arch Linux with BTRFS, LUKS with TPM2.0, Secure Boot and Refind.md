@@ -83,4 +83,10 @@
 	- ```
 	  # pacstrap /mnt linux-zen linux-firmware base btrfs-progs intel-ucode vim
 	  ```
-		- I used `linux-zen` and `vim` here. The kernel lets me use `waydroid` without any new kernel mod
+		- I used `linux-zen` and `vim` here. The kernel lets me use `waydroid` without any new kernel modules but I must use the `dkms` version of nvidia drivers for the dgpu to work.
+	- Generate `/etc/fstab`:
+	- ```
+	  # genfstab -U /mnt >> /mnt/etc/fstab
+	  ```
+	- System Configuration
+		-
