@@ -12,6 +12,4 @@
 - {{renderer :tocgen2, [[configuring the refind bootloader for custom boot menu stanzas]], calc(100vh - 135px)}}
 - {{renderer :tocgen2, [[using supergfxcontrol for gpu mode switching at boot]], calc(100vh - 135px)}}
 - {{renderer :tocgen2, [[mounting samba shared folders in linux]], calc(100vh - 135px)}}
--
-- {{renderer :tocgen2, [[installing arch linux with btrfs, luks with tpm2.0, secure boot and refind]], calc(100vh - 135px)}}
 - {{renderer :tocgen2, [[installing arch linux with btrfs, luks with tpm2.0, secure boot and refind]], calc(100vh - 135px)}}
