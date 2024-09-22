@@ -1,5 +1,6 @@
 - This guide is based on this [lemmy.ml post](https://lemmy.ml/post/61254) which is also heavily based on this [blog post.](https://nerdstuff.org/posts/2020/2020-004_arch_linux_luks_btrfs_systemd-boot/) I have outlined here my steps in reinstalling my arch linux system after it had a hiccup which is time consuming to recover from and decided to nuke my system and reinstall it anew and might as well try to use BTRFS and TPM2.0 unlocking for my encrypted volumes.
 - There are some problems I've encountered which deviate the steps a little from the previously said guides which maybe due to my setup.
-- I've the latest Arch Linux iso as of the writing of this guide [[Sep 22nd, 2024]]. I've also used Ventoy to load the iso from a usb. It has a little bit of quirk that the live environment wont boot if using normal mode and would instead need to be booted in grub2 mode. This maybe due to a bug in Ventoy.
+- I've the latest Arch Linux iso as of the writing of this guide [[Sep 22nd, 2024]] (). I've also used Ventoy to load the iso from a usb. It has a little bit of quirk that the live environment wont boot if using normal mode and would instead need to be booted in grub2 mode. This maybe due to a bug in Ventoy.
 	- I was planning to migrate from ventoy sometime in the future since it's been giving me problems in booting to live environments lately and specially with the [issue](https://lemmy.ml/post/20404494) the other day.
-	- Considering
+	- Considering to use a fork or `glim`
+-
