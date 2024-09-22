@@ -169,7 +169,7 @@
 	      volume   "Arch Linux"
 	      loader   /vmlinuz-linux
 	      initrd   /initramfs-linux.img
-	      options  "cryptdevice=PARTUUID=367c4973-3dd4-ed4c-ad44-d9990213dfc9:luksdev resume=UUID=da08223c-a742-4a82-9275-f02ec2703bba root=/dev/mapper/luksdev zswap.enabled=0 rw rootfstype=ext4 quiet splash loglevel=3 systemd.show_status=auto rd.udev.log_level=3 nvidia_drm.modeset=1 amd_pstate=active acpi_enforce_resources=lax iommu=soft amd_iommu=fullflush"
+	      options  "cryptdevice=PARTUUID=36	7c4973-3dd4-ed4c-ad44-d9990213dfc9:luksdev resume=UUID=da08223c-a742-4a82-9275-f02ec2703bba root=/dev/mapper/luksdev zswap.enabled=0 rw rootfstype=ext4 quiet splash loglevel=3 systemd.show_status=auto rd.udev.log_level=3 nvidia_drm.modeset=1 amd_pstate=active acpi_enforce_resources=lax iommu=soft amd_iommu=fullflush"
 	      submenuentry "Boot to single-user mode" {
 	          options	"cryptdevice=PARTUUID=367c4973-3dd4-ed4c-ad44-d9990213dfc9:luksdev root=/dev/mapper/luksdev zswap.enabled=0 rw rootfstype=ext4 single"
 	      }
