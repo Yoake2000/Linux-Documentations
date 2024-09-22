@@ -110,4 +110,13 @@
 		- ```
 		  #en_US.UTF-8 UTF-8
 		  ```
-			- I've uncommented out more lines so that I can use some more
+			- I've uncommented out more lines so that I can use some more language and locales.
+		- Generate locale:
+		- ```
+		  # locale-gen
+		  ```
+		- Set time zone:
+		- ```
+		  # ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+		  ```
+		-
