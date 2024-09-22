@@ -14,3 +14,4 @@
 - {{renderer :tocgen2, [[mounting samba shared folders in linux]], calc(100vh - 135px)}}
 -
 - {{renderer :tocgen2, [[installing arch linux with btrfs, luks with tpm2.0, secure boot and refind]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[installing arch linux with btrfs, luks with tpm2.0, secure boot and refind]], calc(100vh - 135px)}}
