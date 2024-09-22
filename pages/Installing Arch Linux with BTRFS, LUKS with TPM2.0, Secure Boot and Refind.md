@@ -106,7 +106,14 @@
 		  # passwd
 		  ```
 		- Create a user
-		- #
+		- ```
+		  # useradd -mG wheel <YOUR-USERNAME>
+		  ```
+		- Now edit the sudoers file to give your user sudo permissions. I used `vim` as my text editor:
+			- ```
+			  # EDITOR=vim visudo
+			  ```
+		-
 		- Set locale:
 		  collapsed:: true
 			- ```
