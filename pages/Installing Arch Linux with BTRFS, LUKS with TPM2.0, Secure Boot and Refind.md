@@ -162,6 +162,27 @@
 	- ```
 	  # refind-install
 	  ```
-	- Edit `/boot/EFI/refind/refind.conf` and
+	- Edit `/boot/EFI/refind/refind.conf` and  add the following entry at the bottom.
+	- ```
+	  menuentry "Arch Linux" {
+	      icon     /EFI/refind/themes/darkmini/icons/os_arch.png
+	      volume   "Arch Linux"
+	      loader   /vmlinuz-linux
+	      initrd   /initramfs-linux.img
+	      options  "cryptdevice=PARTUUID=367c4973-3dd4-ed4c-ad44-d9990213dfc9:luksdev resume=UUID=da08223c-a742-4a82-9275-f02ec2703bba root=/dev/mapper/luksdev zswap.enabled=0 rw rootfstype=ext4 quiet splash loglevel=3 systemd.show_status=auto rd.udev.log_level=3 nvidia_drm.modeset=1 amd_pstate=active acpi_enforce_resources=lax iommu=soft amd_iommu=fullflush"
+	      submenuentry "Boot to single-user mode" {
+	          options	"cryptdevice=PARTUUID=367c4973-3dd4-ed4c-ad44-d9990213dfc9:luksdev root=/dev/mapper/luksdev zswap.enabled=0 rw rootfstype=ext4 single"
+	      }
+	      submenuentry "Boot with minimal options" {
+	          options	"ro root=/dev/mapper/luksdev"
+	      }
+	      submenuentry "Integrated GPU mode"	{
+	     	add_options "supergfxd.mode=Integrated"
+	      }
+	      submenuentry "Hybrid GPU mode"	{
+	     	add_options "supergfxd.mode=Hybrid"
+	      }
+	  }	
+	  ```
 	- Exit the `chroot` and reboot the system.
 	-
