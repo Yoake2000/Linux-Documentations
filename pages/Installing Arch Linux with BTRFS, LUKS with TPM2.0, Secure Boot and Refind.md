@@ -201,7 +201,7 @@
 		  $ sudo pacman -Syu timeshift
 		  ```
 - # Enabling Secure Boot
-	- Enabling Secure Boot in `REFind` using Pre Signed Bootloader.
+	- Enabling Secure Boot in `rEFind` using Pre Signed Bootloader.
 	- Install `preloader-signed` from the `AUR`
 	- ```
 	  $ yay -Syu preloader-signed
@@ -210,4 +210,4 @@
 	- ```
 	  # refind-install --preloader /usr/share/preloader-signed/PreLoader.efi
 	  ```
-	- After a reboot with Secure Boot enabled from the `UEFI` firmware menu, HashTool will launch and
+	- After a reboot with Secure Boot enabled from the `UEFI` firmware menu, HashTool will launch and it is needed to enroll the hash of rEFInd `loader.efi` and the kernel `vmlinuz-linux-zen`
