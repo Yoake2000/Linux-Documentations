@@ -162,7 +162,7 @@
 	- ```
 	  # refind-install
 	  ```
-	- Edit `/boot/EFI/refind/refind.conf` and  add the following entry at the bottom.
+	- Edit `/boot/EFI/refind/refind.conf` and  add the following entry at the bottom. More info on [[Configuring the rEFInd Bootloader for Custom Boot Menu Stanzas]]
 	- ```
 	  menuentry "Arch Linux" {
 	      icon     /EFI/refind/themes/darkmini/icons/os_arch.png
@@ -170,17 +170,6 @@
 	      loader   /vmlinuz-linux
 	      initrd   /initramfs-linux.img
 	      options  " rd.luks.name=<UUID OF ROOT PARTITION>=luks root=/dev/mapper/luks rootflags=subvol=@ rd.luks.options=<UUID AGAIN>=discard rw quiet lsm=lockdown,yama,apparmor,bpf quiet splash loglevel=3 systemd.show_status=auto rd.udev.log_level=3 nvidia_drm.modeset=1 amd_pstate=active acpi_enforce_resources=lax iommu=soft amd_iommu=fullflush"
-	      submenuentry "Boot to single-user mode" {
-	          options	"cryptdevice=PARTUUID=367c4973-3dd4-ed4c-ad44-d9990213dfc9:luksdev root=/dev/mapper/luksdev zswap.enabled=0 rw rootfstype=ext4 single"
-	      }
-	      submenuentry "Boot with minimal options" {
-	          options	"ro root=/dev/mapper/luksdev"
-	      }
-	      submenuentry "Integrated GPU mode"	{
-	     	add_options "supergfxd.mode=Integrated"
-	      }
-	      submenuentry "Hybrid GPU mode"	{
-	     	add_options "supergfxd.mode=Hybrid"
 	      }
 	  }	
 	  ```
