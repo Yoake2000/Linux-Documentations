@@ -41,6 +41,6 @@
 		- ```
 		  Command (? for help): w
 		  ```
-	- I've also created a swap partition right before the root partition. From the guides, they're using a swap file inside the encrypted partition. I may use that in the future and will be editing this guide
+	- I've also created a swap partition right before the root partition. From the guides, they're using a swap file inside the encrypted partition. I may use that in the future and will be editing this guide. As for the hex code for the swap partition, it is `8200`.
 - Encrypting the Disks
 	-
