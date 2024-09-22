@@ -68,4 +68,13 @@
 		  # btrfs sub create /mnt/@home
 		  # umount /mnt
 		  ```
-		- The guide also made a sub volume for the snapshots. I will be using `timeshift` to create snapshots so it was not needed. Maybe in the future I will be using it
+		- The guide also made a sub volume for the snapshots. I will be using `timeshift` to create snapshots so it was not needed. Maybe in the future I will use it and configure my system accordingly.
+		- Mount the sub volumes:
+		- ```
+		  # mount -o noatime,nodiratime,compress=zstd,space_cache=v2,ssd,subvol=@ /dev/mapper/luks /mnt
+		  # mkdir -p /mnt/{boot,home}
+		  # mount -o noatime,nodiratime,compress=zstd,space_cache=v2,ssd,subvol=@home /dev/mapper/luks /mnt/home
+		  # mount -o noatime,nodiratime,compress=zstd,space_cache=v2,ssd,subvol=@pkg /dev/mapper/luks /mnt/var/cache/pacman/pkg
+		  # mount -o noatime,nodiratime,compress=zstd,space_cache=v2,ssd,subvol=@snapshots /dev/mapper/luks /mnt/.snapshots
+		  # mount -o noatime,nodiratime,compress=zstd,space_cache=v2,ssd,subvolid=5 /dev/mapper/luks /mnt/btrfs
+		  ```
