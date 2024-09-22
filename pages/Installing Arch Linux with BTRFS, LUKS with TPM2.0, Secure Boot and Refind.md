@@ -21,4 +21,10 @@
 			- https://bbs.archlinux.org/viewtopic.php?id=292688
 - Partitioning the Disks
 	- For my setup I'm installing Arch on `/dev/nvme0`.
-	- To partition the disks, we
+	- To partition the disk, we need to work on it using `gdisk` or `fdisk`.
+		- ```
+		  # gdisk /dev/nvme0
+		  ```
+	- Create a new partition table by selecting `o`
+		- ```
+		  ```
