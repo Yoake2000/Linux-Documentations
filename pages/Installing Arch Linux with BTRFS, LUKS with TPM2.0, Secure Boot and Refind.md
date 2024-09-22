@@ -61,4 +61,11 @@
 		  # mkfs.btrfs -L ROOT /dev/mapper/luks
 		  ```
 	- Create and Mount Sub Volumes
-		- Create [sub volumes](https://wiki.archlinux.org/index.php/Btrfs#Subvolumes) for root, home, the package cache, [snapshots](https://wiki.archlinux.org/index.php/Btrfs#Snapshots) and the entire Btrfs file system:
+		- Create [sub volumes](https://wiki.archlinux.org/index.php/Btrfs#Subvolumes) for root, home, the package cache, and the entire Btrfs file system:
+		- ```
+		  # mount /dev/mapper/luks /mnt
+		  # btrfs sub create /mnt/@
+		  # btrfs sub create /mnt/@home
+		  # umount /mnt
+		  ```
+		- The guide also made a sub volume for the snapshots
