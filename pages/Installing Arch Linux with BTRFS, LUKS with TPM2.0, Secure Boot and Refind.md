@@ -4,4 +4,4 @@
 	- I was planning to migrate from ventoy sometime in the future since it's been giving me problems in booting to live environments lately and specially with the [issue](https://lemmy.ml/post/20404494) the other day.
 	- Considering to use a fork or `glim`
 - # Base Install
-- An internet connection is needed for the whole process. I used an Ethernet cable but a WiFi connection can also be used but it needs to be configured first as outlined
+- An internet connection is needed for the whole process. I used an Ethernet cable but a WiFi connection can also be used but it needs to be configured first as outlined in the [Arch Wiki.](https://wiki.archlinux.org/title/Iwd#iwctl) For other connection types,
