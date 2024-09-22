@@ -204,4 +204,10 @@
 	- Enabling Secure Boot in `REFind` using Pre Signed Bootloader.
 	- Install `preloader-signed` from the `AUR`
 	- ```
+	  $ yay -Syu preloader-signed
 	  ```
+	- Run `refind-install` with some options
+	- ```
+	  # refind-install --preloader /usr/share/preloader-signed/PreLoader.efi
+	  ```
+	- After a reboot with Secure Boot enabled from the `UEFI` firmware menu, HashTool will launch and
