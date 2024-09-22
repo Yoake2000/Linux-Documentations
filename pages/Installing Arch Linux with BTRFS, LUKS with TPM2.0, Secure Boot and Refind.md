@@ -42,3 +42,5 @@
 		  Command (? for help): w
 		  ```
 	-
+- Encrypting the Disks
+	-
