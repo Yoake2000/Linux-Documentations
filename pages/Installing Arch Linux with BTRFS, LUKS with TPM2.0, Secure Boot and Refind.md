@@ -30,4 +30,15 @@
 		  Command (? for help): o
 		  ```
 	- Create an EFI partition (I chose a size of 1G to fit more kernels sometime in the future. The hex code is `EF00` for the boot partition):
+		- ```
+		  Command (? for help): n
+		  ```
+	- Create a root partition by adopting the default values.
+		- ```
+		  Command (? for help): n
+		  ```
+	- Now write the new partitions to the disk.
+		- ```
+		  Command (? for help): w
+		  ```
 	-
