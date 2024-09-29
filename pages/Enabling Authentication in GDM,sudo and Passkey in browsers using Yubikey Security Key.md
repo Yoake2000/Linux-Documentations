@@ -2,12 +2,14 @@
 - Note: Copied From an .md file written on November 8,2023
   background-color:: red
 - Note: The machine that is used here is running archlinux and is using yay as a third party package manager to be able to download AUR packages conviniently.
-- $ yay -S libfido2 pam-u2f yubico-authenticator-bin
+- ```
+  $ yay -S libfido2 pam-u2f yubico-authenticator-bin
+  ```
 - Add the key 
   id:: 661dd702-b5fa-4e99-8259-534692b87edf
   
     ```
-    $ mkdir ~/.config/Yubico
+    $ mkdir ~/.config/Yubico 
     $ pamu2fcfg -o pam://hostname -i pam://hostname > ~/.config/Yubico/u2f_keys
   ```
   
